@@ -4274,7 +4274,7 @@ table tbody + tbody {
   z-index: -200;
   opacity: 0;
   transition: all 0.5s ease-in-out;
-  padding-top: 10%;
+  margin-top: 10%;
   background-color: #FFF;
   visibility: hidden;
 }
@@ -4408,7 +4408,9 @@ table tbody + tbody {
 }
 
 .menu-style-2-open {
-  overflow: hidden;
+  position: fixed; 
+  overflow-y: scroll;
+  width: 100%;
 }
 
 .menu-style-2-open .site-header {
