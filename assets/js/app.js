@@ -83,7 +83,13 @@ var DECENTTHEMES = DECENTTHEMES || {};
         scrollOffset  = 150;
 
       $(window).on('scroll', function(){
-        if( !scrolling ) {
+        if( !scrolling) {
+          scrolling = true;
+          (!window.requestAnimationFrame)
+            ? setTimeout(autoHideHeader, 250)
+            : requestAnimationFrame(autoHideHeader);
+        }
+        else {
           scrolling = true;
           (!window.requestAnimationFrame)
             ? setTimeout(autoHideHeader, 250)
@@ -118,11 +124,11 @@ var DECENTTHEMES = DECENTTHEMES || {};
           //if scrolling down...
           if( currentTop > $siteHeader + scrollOffset ) {
             //hide primary nav
-            $('body').addClass('fix-header').removeClass('is-scrolled');
+            $('body').addClass('fix-header').addClass('is-scrolled');
             $maskHeader.css('height', $siteHeader + 10 +'px');
           } else if( currentTop > $siteHeader ) {
             //once the secondary nav is fixed, do not hide primary nav if you haven't scrolled more than scrollOffset
-            $('body').removeClass('is-scrolled');
+            $('body').addClass('is-scrolled');
           }
 
         }
