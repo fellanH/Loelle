@@ -118,11 +118,11 @@ var DECENTTHEMES = DECENTTHEMES || {};
           //if scrolling down...
           if( currentTop > $siteHeader + scrollOffset ) {
             //hide primary nav
-            $('body').addClass('fix-header').removeClass('is-scrolled');
+            $('body').addClass('fix-header').addClass('is-scrolled');
             $maskHeader.css('height', $siteHeader + 10 +'px');
           } else if( currentTop > $siteHeader ) {
             //once the secondary nav is fixed, do not hide primary nav if you haven't scrolled more than scrollOffset
-            $('body').removeClass('is-scrolled');
+            $('body').addClass('is-scrolled');
           }
 
         }
