@@ -2572,7 +2572,7 @@ table tbody + tbody {
   position: relative;
   display: block;
   max-width: 460px;
-  max-height: 345px;
+  max-height: 460px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
