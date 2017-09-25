@@ -1675,7 +1675,16 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   ## Feature Box
   --------------------------------------------------------------*/
-.feauture-box {
+.site-features {
+  padding-top: 100px;
+  background: #000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#555, #000); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#555, #000); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(#555, #000); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#555, #000);
+}
+
+  .feauture-box {
   text-align: center;
   padding: 50px 0;
   position: relative;
@@ -1706,6 +1715,7 @@ table tbody + tbody {
   letter-spacing: 0.028em;
   margin-top: 0;
   margin-bottom: 15px;
+  color: #fff;
 }
 
 .feauture-box.last:after {
@@ -2568,6 +2578,14 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   ## Thumbnail Menu Item
   --------------------------------------------------------------*/
+.site-thumbnail-menu {
+  background: #000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#555, #000); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#555, #000); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(#555, #000); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#555, #000);
+}
+
 .thumbnail-menu-item {
   position: relative;
   display: block;
@@ -2577,6 +2595,7 @@ table tbody + tbody {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 12px;
+  
 }
 
 .thumbnail-menu-item > img {
@@ -2796,11 +2815,11 @@ table tbody + tbody {
   ## Ads
   --------------------------------------------------------------*/
 .ad-box {
-  height: 750px;
+  height: 700px;
   position: relative;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: #f5f5f5;
+  background-color: #000;
   background-position: center;
   margin: 25px 0;
 }
@@ -4481,7 +4500,7 @@ table tbody + tbody {
   --------------------------------------------------------------*/
 .site-section {
   padding-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .site-section.alt {
@@ -5713,6 +5732,15 @@ table tbody + tbody {
   ## Client Testimonials
   --------------------------------------------------------------*/
 /* Testimonials Thumbnails */
+
+#site-clients-testimonials {
+  background: #000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( #000, #555); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #000,#555); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient( #000,#555); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( #000,#555);
+}
+
 .client-testimonial-thumbnails > .swiper-wrapper {
   height: 350px;
 }
@@ -5859,6 +5887,7 @@ table tbody + tbody {
   letter-spacing: 0.028em;
   font-style: italic;
   padding-top: 85px;
+  color: #fff;
 }
 
 .client-testimonial-contents > .swiper-wrapper > .swiper-slide > .content > .client-comments:before {
