@@ -2995,7 +2995,7 @@ table tbody + tbody {
     padding: 0;
   }
   .ad-box .ad-content .ad-action .bt-btn {
-    padding: 10px 15px;
+    padding: 4% 10%;
   }
   .ad-box .ad-content .ad-action .bt-btn > i {
     margin-left: 10px;
