@@ -2289,6 +2289,7 @@ table tbody + tbody {
 .site-clients-logo .swiper-wrapper {
   -ms-flex-align: center;
       align-items: center;
+      color: #555;
 }
 
 .brand-logo {
@@ -4504,7 +4505,12 @@ table tbody + tbody {
 }
 
 .site-section.alt {
-  background-color: #f8f8f8;
+  background: #000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( #000, #555); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #000,#555); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient( #000,#555); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( #000,#555);
+  
 }
 
 .site-section.extra-padding {
