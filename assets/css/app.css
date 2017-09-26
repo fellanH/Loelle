@@ -4623,7 +4623,7 @@ table tbody + tbody {
   ## Header
   --------------------------------------------------------------*/
 .site-header {
-  background-color: #FFF;
+  background-color: #111;
   transition: all 0.25s ease-in-out;
   z-index: 1000;
 }
@@ -4642,14 +4642,14 @@ table tbody + tbody {
 }
 
 .header-middle-area {
-  padding: 30px 0;
+  padding: 10px 0;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  border-bottom: 2px solid #f8f8f8;
+  /* border-bottom: 2px solid #EDEDED; */
 }
 
 .header-style-3 .header-middle-area {
@@ -4664,7 +4664,8 @@ table tbody + tbody {
 }
 
 .transparent-header .site-header {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: #111;
   position: absolute;
   width: 100%;
 }
@@ -4861,7 +4862,7 @@ table tbody + tbody {
 
 .site-main-slider .swiper-slide > img {
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
 .site-main-slider .swiper-slide .slide-heading {
