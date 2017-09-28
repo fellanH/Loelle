@@ -5455,7 +5455,12 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   ## Products List
   --------------------------------------------------------------*/
-.products-list.products-masonry {
+.row-series-1{
+  padding-top: 15px;
+  background-color: #000;
+}
+
+  .products-list.products-masonry {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transform: translate3d(0, 0, 0);
