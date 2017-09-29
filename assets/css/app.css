@@ -3818,8 +3818,16 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   ## Lookbooks
   --------------------------------------------------------------*/
+.grow { transition: all 3s ease-in-out; }
+.grow:hover { transform: scale(1.2); }
+
+  .color-white{
+  color: #fff;
+}
+
 .lookbook-item {
   position: relative;
+  overflow: hidden;
 }
 
 .lookbook-item > img {
@@ -3829,7 +3837,7 @@ table tbody + tbody {
 
 .lookbook-item > .lbk-content {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 30px;
   -ms-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -3886,7 +3894,7 @@ table tbody + tbody {
 }
 
 .lookbook-item > .lbk-content.left-center {
-  left: 130px;
+  left: 70px;
   max-width: 450px;
   text-align: center;
 }
@@ -3910,11 +3918,12 @@ table tbody + tbody {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .lookbooks-row > .lookbook-item {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 30px;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -3949,7 +3958,7 @@ table tbody + tbody {
     font-size: 3.57143em;
   }
   .lookbook-item > .lbk-content.left-center {
-    left: 50px;
+    left: 30px;
   }
   .lookbook-item > .lbk-content.right-center {
     right: 30px;
@@ -4512,6 +4521,17 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   # Sections
   --------------------------------------------------------------*/
+.sectrion-series{
+  padding-top: 30px;
+  margin: 0;
+  background-color: #000;
+}
+
+.lookbooks-row {
+  margin: 0;
+}
+
+
 .site-section {
   padding-top: 100px;
   margin-bottom: 0px;
