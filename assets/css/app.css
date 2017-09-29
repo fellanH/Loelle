@@ -5475,7 +5475,12 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   ## Products List
   --------------------------------------------------------------*/
-.products-list.products-masonry {
+.row-series-1{
+  padding-top: 15px;
+  background-color: #000;
+}
+
+  .products-list.products-masonry {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transform: translate3d(0, 0, 0);
@@ -7429,11 +7434,10 @@ li.comment .comment-respond {
 
 
 
-
-
-.lightbox {
+#lightbox1 {
 	/** Default lightbox to hidden */
-	visibility: hidden;
+	
+  display: none;
 
 	/** Position and style */
 	position: fixed;
@@ -7446,14 +7450,18 @@ li.comment .comment-respond {
 	background: rgba(0,0,0,0.8);
   border-radius: 20px;
   border: 1px solid #CBA969;
-  opacity: 0;
+  opacity: 1;
   transition: all ease-in 300ms;
   padding: 4%;
   overflow: visible;
 }
 
+.lightbox {
+
+}
+
 @media screen and (max-width: 768px) {
-  .lightbox {
+  #lightbox1 {
     width: 90%;
     height: 85%;
     top: 12%;
@@ -7491,14 +7499,14 @@ li.comment .comment-respond {
 }
 
 
-.lightbox:target{
-	/** Remove default browser outline **/
+/* .lightbox:target{
+	 Remove default browser outline
 	outline: none;
   
-    /** Unhide lightbox **/
+    /** Unhide lightbox
     visibility: visible; 
     opacity: 1;
-}
+} */
 
 
 

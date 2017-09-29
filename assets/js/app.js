@@ -446,3 +446,14 @@ var DECENTTHEMES = DECENTTHEMES || {};
   $(document).on( 'scroll', DECENTTHEMES.documentOnScroll.init );
 
 })(jQuery);
+
+
+function showLightbox () {
+  var lightbox = document.getElementById("lightbox1");
+  lightbox.style.display = "block"; 
+}
+
+function hideLightbox () {
+  var lightbox = document.getElementById("lightbox1");
+  lightbox.style.display = "none"; 
+}
