@@ -3555,6 +3555,9 @@ table tbody + tbody {
 .product-single-details .product-additional-info p {
   margin-bottom: 50px;
 }
+.correction{
+  padding-left:100px;
+}
 
 /*--------------------------------------------------------------
   ## Product Reviews
