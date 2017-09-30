@@ -3556,6 +3556,7 @@ table tbody + tbody {
   margin-bottom: 50px;
 }
 
+
 /*--------------------------------------------------------------
   ## Product Reviews
   --------------------------------------------------------------*/
@@ -6872,7 +6873,7 @@ li.comment .comment-respond {
 }
 
 .site-footer.style-1 {
-  padding-top: 300px;
+  padding-top: 40px;
   padding-bottom: 100px;
   background-image: url(../../static/sections/footer/bg-image.png);
   background-repeat: repeat-x;
