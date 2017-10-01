@@ -38,6 +38,7 @@
   <link rel="stylesheet" href="dependencies/animate.css/animate.min.css" type="text/css">
   <link rel="stylesheet" href="dependencies/Swiper/css/swiper.min.css" type="text/css">
   <link rel="stylesheet" href="dependencies/magnific-popup/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Site Stylesheet -->
   <link rel="stylesheet" href="assets/css/app.css" type="text/css">
@@ -58,84 +59,29 @@
     <!--=================================
     =            Site Header            =
     ==================================-->
-    <header id="masthead" class="site-header">
-      <div class="container">
-        <div class="header-middle-area">
-          <div class="site-menu style-two">
-            <div class="menu-toggle" data-dt-toggle="menu-style-2-open" data-dt-toggle-false="search-form-open" aria-expanded="false">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div><!-- /.menu-toggle -->
-
-            <div id="secondary-menu" class="menu-overlay-full" role="navigation">
-              <div class="container">
-                <div id="secondary-menu-container" class="secondary-menu">
-                  <ul>
-                    <li class="active"><a href="index-v2.html">Home</a></li>
-                    <li><a href="category-with-sidebar.html">Oljor</a></li>
-                    <li><a href="category-with-page-header.html">Tvålar</a></li>
-                    <li><a href="lookbooks.html">Erbjudanden</a></li>
-                    <li><a href="blog.html">Hamam/spa</a></li>
-                    <li><a href="contact.html">Barbary Fig Serie</a></li>
-                    <li><a href="category-with-page-header.html">Omm Oss</a></li>
-                    <li><a href="lookbooks.html">Återförsäljare</a></li>
-                    <li><a href="blog.html">Kontakt</a></li>
-                    <li><a href="contact.html">Om Argan</a></li>
-                  </ul>
-                </div><!-- /#secondary-menu-container -->
-
-                <div class="footer-with-social">
-                  <ul class="list-inline">
-                    <li><a href="https://www.facebook.com/Loelle.Stockholm/"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/arganolja"><i class="fa fa-twitter"></i></a></li>
-                   <!-- <li><a href="#pinterest"><i class="fa fa-pinterest"></i></a></li>
-                    <li><a href="#google-plus"><i class="fa fa-google-plus"></i></a></li> -->
-                    <li><a href="https://www.instagram.com/loelleorganicbeauty/"><i class="fa fa-instagram"></i></a></li>
-                  </ul>
-
-                  <div class="copyright-info">
-                    Copyright &copy; 2017 Loelle - All Rights Reserved
-                  </div><!-- /.copyright-info -->
-                </div><!-- /.footer-with-social -->
-              </div><!-- /.container -->
-            </div><!-- /#menu-secondary.menu-overlay-full -->
-          </div><!-- /.site-menu-two -->
-
-          <div class="site-branding">
-            <a href="index-v2.html" id="site-logo">
-              <img class="normal-logo" src="assets/img/logo.png" alt="Loelle">
-              <img class="transparent-logo" src="assets/img/logo-transparent.png" alt="Loelle">
-            </a>
-          </div><!-- /.site-branding -->
-
-          <div class="site-menu-icon">
-            <ul class="list-inline">
-              <!-- <li>
-                <a href="shopping-cart.html">
-                  <i class="pe-7s-shopbag"></i>
-                  <span class="badge">5</span>
-                </a>
-              </li> -->
-              <!-- <li>
-                <a href="#" data-dt-toggle="search-form-open" data-dt-toggle-false="menu-style-2-open">
-                  <i class="pe-7s-search"></i>
-                  <i class="icon-close"></i>
-                </a>
-                <div class="site-overlay-search">
-                  <div class="container">
-                    <form role="search" method="get">
-                      <input type="text" value="" placeholder="Search here..." name="s" id="s"  />
-                    </form>
-                  </div>
+<header class="fixed transparent">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-              </li> -->
-            </ul>
-          </div><!-- /.site-menu-icon -->
-        </div><!-- /.header-middle-area -->
-      </div><!-- /.container -->
-    </header><!-- /#masthead -->
-    <div id="header-fake-mask"></div>
+                <nav id="main_menu" class="mobile_menu navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="mobile_menu_title" style="display:none;">MENY</li>
+                        <li class=""><a href="index.html" class="">HEM</a></li>
+                        <i class="fa fa-i-cursor" aria-hidden="true"></i>
+                        <li class=""><a href="barbary.html" class="">BARBARY</a></li>
+                        <i class="fa fa-i-cursor" aria-hidden="true"></i>
+                        <li class=""><a href="find-us.html" class="">BAS SERIEN</a></li>
+                        <i class="fa fa-i-cursor" aria-hidden="true"></i>
+                        <li class=""><a href="find-us.html" class="">OM LOELLE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
 
     <!--=================================
     =            Site Banner            =
@@ -345,6 +291,46 @@
 
     </section><!-- /#site-thumbnail-menu -->
 
+    <!--==================================
+    =            Site Ads Top            =
+    ===================================-->
+    <section id="site-ads-section" class="site-ads-section">
+      <div class="row">
+        <div class="col-md-5 col-sm-12 isAnimated fadeIn">
+          <div class="ad-box v2 bottom-right" data-bg-image="static/sections/ads/01.jpg" style="background-size:cover; background-position: cover;">
+            <div class="ad-content">
+              <div class="ad-lead x1 isAnimated fadeInUp" data-wow-delay="0.2s">
+                <span>BIG</span> SALE
+              </div><!-- /.ads-lead -->
+              <div class="ad-desc x2 isAnimated fadeInUp" data-wow-delay="0.3s">
+                SAVE UP TO <span>70%</span>
+              </div><!-- /.ad-desc -->
+              <div class="ad-action isAnimated fadeInUp" data-wow-delay="0.4s">
+                <a href="#" class="bt-btn alt">Köp Nu <i class="fa fa-long-arrow-right"></i></a>
+              </div><!-- /.ad-action -->
+            </div><!-- /.ad-content -->
+          </div><!-- /.ad-box -->
+        </div><!-- /.col-md-5 -->
+        <div class="col-md-7 col-sm-12 isAnimated fadeIn">
+          <div class="ad-box v2 top-left" data-bg-image="static/sections/ads/02.jpg" style="background-size:cover; background-position: cover;">
+            <div class="ad-content v2">
+              <div class="ad-lead x2 isAnimated fadeInUp" data-wow-delay="0.2s">
+                <span>NEW</span>
+              </div><!-- /.ads-lead -->
+              <div class="ad-desc x2 isAnimated fadeInUp" data-wow-delay="0.3s">
+                DECORATIVE
+                <br>
+                ACCENTS
+              </div><!-- /.ad-desc -->
+              <div class="ad-action isAnimated fadeInUp" data-wow-delay="0.4s">
+                <a href="#" class="bt-btn alt">Köp Nu <i class="fa fa-long-arrow-right"></i></a>
+              </div><!-- /.ad-action -->
+            </div><!-- /.ad-content -->
+          </div><!-- /.ad-box -->
+        </div><!-- /.col-md-7 -->
+      </div><!-- /.row -->
+    </section><!-- /#site-ads-section -->
+
 
     <!--=========================================
     =             product slider mk2            =
@@ -529,45 +515,7 @@
 
 
 
-<!--==================================
-    =            Site Ads Top            =
-    ===================================-->
-    <section id="site-ads-section" class="site-ads-section">
-      <div class="row">
-        <div class="col-md-5 col-sm-12 isAnimated fadeIn">
-          <div class="ad-box v2 bottom-right" data-bg-image="static/sections/ads/01.jpg" style="background-size:cover; background-position: cover;">
-            <div class="ad-content">
-              <div class="ad-lead x1 isAnimated fadeInUp" data-wow-delay="0.2s">
-                <span>BIG</span> SALE
-              </div><!-- /.ads-lead -->
-              <div class="ad-desc x2 isAnimated fadeInUp" data-wow-delay="0.3s">
-                SAVE UP TO <span>70%</span>
-              </div><!-- /.ad-desc -->
-              <div class="ad-action isAnimated fadeInUp" data-wow-delay="0.4s">
-                <a href="#" class="bt-btn alt">Köp Nu <i class="fa fa-long-arrow-right"></i></a>
-              </div><!-- /.ad-action -->
-            </div><!-- /.ad-content -->
-          </div><!-- /.ad-box -->
-        </div><!-- /.col-md-5 -->
-        <div class="col-md-7 col-sm-12 isAnimated fadeIn">
-          <div class="ad-box v2 top-left" data-bg-image="static/sections/ads/02.jpg" style="background-size:cover; background-position: cover;">
-            <div class="ad-content v2">
-              <div class="ad-lead x2 isAnimated fadeInUp" data-wow-delay="0.2s">
-                <span>NEW</span>
-              </div><!-- /.ads-lead -->
-              <div class="ad-desc x2 isAnimated fadeInUp" data-wow-delay="0.3s">
-                DECORATIVE
-                <br>
-                ACCENTS
-              </div><!-- /.ad-desc -->
-              <div class="ad-action isAnimated fadeInUp" data-wow-delay="0.4s">
-                <a href="#" class="bt-btn alt">Köp Nu <i class="fa fa-long-arrow-right"></i></a>
-              </div><!-- /.ad-action -->
-            </div><!-- /.ad-content -->
-          </div><!-- /.ad-box -->
-        </div><!-- /.col-md-7 -->
-      </div><!-- /.row -->
-    </section><!-- /#site-ads-section -->
+
     
 
 

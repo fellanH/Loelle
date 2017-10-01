@@ -4118,7 +4118,207 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
-/* Menu Toggle */
+/* ==========  HEADER ========== */
+
+/* ----------  Header ---------- */
+
+.navbar-nav > li {
+  margin-bottom: 0px;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e6eff2;
+    z-index: 9999;
+}
+
+.mfp-zoom-out-cur header {
+    padding-right: 17px;
+}
+
+header.transparent {
+    background: transparent;
+    border-bottom: none;
+    z-index: 99;
+    top: 30px;
+}
+
+header.nav_bg {
+    background: #000;
+}
+
+header.transparent.fixed {
+    position: absolute;
+}
+
+header.transparent.navbar-fixed-top {
+    position: fixed;
+}
+
+header .nodisplay {
+    display: none;
+}
+
+header.transparent.nav_bg {
+    border-bottom: 1px solid #CBA969;
+    top: 0;
+    padding-bottom: 0px;
+}
+
+header .navbar-header .navbar-brand {
+    padding: 15px 0;
+    margin-top: 15px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+header.scroll .navbar-header .navbar-brand {
+    padding: 20px 0;
+    margin-top: 0px;
+}
+
+/* ---------- 4.2 Mobile Menu ---------- */
+header .navbar-header .mobile_menu_btn {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+header .navbar-header .mobile_menu_btn .icon-bar {
+    background: #555;
+    position: relative;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+header.transparent .navbar-header .mobile_menu_btn .icon-bar {
+    background: #fff;
+}
+
+header.scroll .navbar-header .mobile_menu_btn .icon-bar {
+    background: #555;
+}
+
+header .navbar-header .mobile_menu_btn .icon-bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    border-radius: 1px;
+}
+
+header .navbar-header .mobile_menu_btn .icon-bar:nth-of-type(2) {
+    top: 0px;
+}
+
+header .navbar-header .mobile_menu_btn .icon-bar:nth-of-type(3) {
+    top: 0px;
+}
+
+header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(1) {
+    top: 7px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
+    top: -7px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/* ---------- 4.3 Main Menu ---------- */
+#main_menu {
+    margin: 0;
+    padding: 0;
+}
+  .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-nav > i {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#main_menu ul {
+    list-style: none;
+}
+
+
+
+#main_menu .navbar-nav li a {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 900;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; 
+}
+
+#main_menu .navbar-nav li.active a {
+    color: #B63C71;
+}
+
+.transparent #main_menu .navbar-nav li a {
+    color: #fff;
+}
+
+.transparent.nav_bg #main_menu .navbar-nav li a {
+    color: #fff;
+}
+
+.transparent.nav_bg #main_menu .navbar-nav li.active a.dropdown-toggle, .transparent #main_menu .navbar-nav li.active a.dropdown-toggle {
+    color: #B63C71;
+}
+
+.scroll #main_menu .navbar-nav li a {
+    padding: 20px 20px;
+}
+
+#main_menu .navbar-nav li a {
+    color: #555;
+}
+
+#main_menu .navbar-nav li a:hover,
+#main_menu .navbar-nav .open .dropdown-toggle,
+.transparent.nav_bg #main_menu .navbar-nav li a:hover,
+.transparent.nav_bg #main_menu .navbar-nav .open .dropdown-toggle {
+    color: #CBA969;
+}
+
+#main_menu .navbar-nav .menu_button .button {
+    margin-top: 22px;
+    padding: 8px 16px;
+    color: #fff !important;
+}
+
+#main_menu .navbar-nav .menu_button .button:hover,
+#main_menu .navbar-nav .menu_button .button:focus,
+#main_menu .navbar-nav .menu_button .button:active {
+    background: #B63C71;
+    border-color: #B63C71;
+    color: #fff !important;
+}
+
+.scroll #main_menu .navbar-nav .menu_button .button {
+    margin-top: 12px;
+}
+
+  /* Menu Toggle */
 .menu-toggle {
   position: relative;
   width: 30px;

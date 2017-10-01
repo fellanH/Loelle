@@ -411,16 +411,13 @@ var DECENTTHEMES = DECENTTHEMES || {};
       });
     }
   };
-//--------------------------------------------//
-//--------------FELIX HOVER FIX---------------//
-//--------------------------------------------//
 
 
 
 
-//--------------------------------------------//
-//--------------ADAMS LIGHTBOX----------------//
-//--------------------------------------------//
+
+
+
   DECENTTHEMES.documentOnReady = {
     init: function(){
       DECENTTHEMES.initialize.init();
@@ -456,6 +453,96 @@ var DECENTTHEMES = DECENTTHEMES || {};
 
 })(jQuery);
 
+//--------------------------------------------//
+//--------------  THE    NAV   ---------------//
+//--------------------------------------------//
+
+/*========== MENU ==========*/
+        $(window).on("scroll", function () {
+            
+            var header = $('header')
+            
+            if (header.length > 0) {
+
+                var window_height = $(this).scrollTop();
+                var topmenuheight = 50;
+
+                if (window_height > topmenuheight) {
+
+                    if (header.hasClass("transparent"))
+                        header.addClass("nav_bg");
+                    // Logo
+                    $(".light").addClass("nodisplay");
+                    $(".dark").removeClass("nodisplay");
+
+                    // Check if Header is fixed or not
+                    if (header.hasClass('fixed')) {
+                        header.addClass('navbar-fixed-top');
+                        // Add scroll Class
+                        header.addClass("scroll");
+                    }
+
+                } else {
+                    if (header.hasClass("nav_bg"))
+                        header.removeClass("nav_bg");
+
+                    $(".dark").addClass("nodisplay");
+                    $(".light").removeClass("nodisplay");
+
+                    header.removeClass("scroll");
+                    header.removeClass("navbar-fixed-top");
+                }
+            }
+        });
+        
+        $(function () {
+            function toggleNavbarMethod() {
+                if ($(window).width() > 992) {
+                    
+                    $('.dropdown')
+                        .on('mouseover', function () {
+                            $(this).addClass('open');
+                            $('b', this).toggleClass("caret caret-up");
+                        })
+
+                    .on('mouseout', function () {
+                        $(this).removeClass('open');
+                        $('b', this).toggleClass("caret caret-up");
+                    });
+
+
+                } else {
+                    $('.dropdown').off('mouseover').off('mouseout');
+                    $('.dropdown-toggle')
+
+                    .on('click', function (e) {
+                        $('b', this).toggleClass("caret caret-up");
+                    });
+
+                }
+            }
+            toggleNavbarMethod();
+            $(window).on("resize", (toggleNavbarMethod));
+
+            $(".navbar-toggle").on("click", function () {
+                $(this).toggleClass("active");
+            });
+        });
+
+        /*========== MOBILE MENU ==========*/
+        $('.mobile_menu_btn').jPushMenu({
+            closeOnClickLink: false
+        });
+        $('.dropdown-toggle').dropdown();
+
+
+//--------------------------------------------//
+//--------------FELIX HOVER FIX---------------//
+//--------------------------------------------//
+
+//--------------------------------------------//
+//--------------ADAMS LIGHTBOX----------------//
+//--------------------------------------------//
 
 function showLightbox () {
   var lightbox = document.getElementById("lightbox1");
