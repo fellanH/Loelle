@@ -546,10 +546,13 @@ var DECENTTHEMES = DECENTTHEMES || {};
 
 function showLightbox () {
   var lightbox = document.getElementById("lightbox1");
-  lightbox.style.display = "block"; 
+  lightbox.style.display = "block";
+  lightbox.style.opacity = "1"; 
 }
 
 function hideLightbox () {
   var lightbox = document.getElementById("lightbox1");
-  lightbox.style.display = "none"; 
+  lightbox.style.display = "none";
+  lightbox.style.opacity = "0"; 
+  
 }
