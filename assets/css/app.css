@@ -3897,7 +3897,8 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   ## Page Header
   --------------------------------------------------------------*/
-.dt-page-header {
+
+  .dt-page-header {
   padding: 50px 0;
   background: #2f2c2c;
   background-size: cover;
@@ -3943,7 +3944,7 @@ table tbody + tbody {
       transform: translateY(-50%);
 }
 
-.lookbook-item > .lbk-content > .lbk-title {
+.lookbook-item > .lbk-content > a > .lbk-title {
   font-size: 44px;
   font-size: 3.14286em;
   font-weight: 700;
@@ -3951,6 +3952,10 @@ table tbody + tbody {
   color: #CBA969;
   line-height: 1;
   margin-bottom: 10px;
+}
+
+.lookbook-item > .lbk-content > a > .lbk-title:hover{
+  transform: scale(1.1); 
 }
 
 .lookbook-item > .lbk-content > .lbk-title.extra-spacing {
@@ -5661,6 +5666,16 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 }
 
 /* Slider Style 2 */
+.slide-v2 {
+  background-image: url("background.jpg");
+  min-height: 500px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .slide-v2 .slide-heading {
   margin-bottom: 30px;
 }
@@ -5671,6 +5686,8 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 
 .slide-v2 .slide-caption-content {
   position: relative;
+  background-position: fixed;
+  
 }
 
 .slide-v2 .slide-caption-content:after {
