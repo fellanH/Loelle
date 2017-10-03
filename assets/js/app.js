@@ -458,7 +458,7 @@ var DECENTTHEMES = DECENTTHEMES || {};
 //--------------------------------------------//
 
 /*========== MENU ==========*/
-        $(window).on("scroll", function () {
+        $(window).on('load', function () {
             
             var header = $('header')
             
