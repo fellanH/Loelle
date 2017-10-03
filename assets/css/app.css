@@ -3919,8 +3919,8 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   ## Lookbooks
   --------------------------------------------------------------*/
-.grow { transition: all 3s ease-in-out; }
-.grow:hover { transform: scale(1.2); }
+.grow { transition: all 2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
 
   .color-white{
   color: #fff;
@@ -7948,7 +7948,10 @@ li.comment .comment-respond {
 
 .img {
   height: 100%;
-  background: url("\loelleHairOil.jpg") no-repeat center;
+  size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: ;
   background-size: contain;
 }
 
@@ -7975,6 +7978,7 @@ hr.style14 {
 }
 
 .lightboxChange {
+  color: #CBA969;
   border: 2px solid #CBA969;
   width: 50px;
   height: 50px;
@@ -8030,6 +8034,23 @@ hr.style14 {
     line-height: 26px;
     font-family: "Helvetica Neue", Consolas, Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
   }
+
+  .closeBtn {
+    color: #CBA969;  
+    border-left: 2px solid #CBA969;
+    border-right: 2px solid #CBA969;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+  }
+
+  .closeBtn:hover {
+    background-color: #CBA969;
+    border-color: #CBA969;
+    color: #fff;
+  }  
 
   .bigBoi {
     height: 100%;

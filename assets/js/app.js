@@ -547,7 +547,9 @@ var DECENTTHEMES = DECENTTHEMES || {};
 function showLightbox1 () {
   var lightbox = document.getElementById("lightbox1");
   lightbox.style.display = "block";
-  lightbox.style.opacity = "1"; 
+  lightbox.style.opacity = "1";
+  document.getElementsByClassName("lightboxImg");
+  img.style.backgroundImage = src("\loelleHairOil.jpg");
 }
 
 function hideLightbox1 () {
@@ -560,7 +562,8 @@ function hideLightbox1 () {
 function showLightbox2 () {
   var lightbox = document.getElementById("lightbox2");
   lightbox.style.display = "block";
-  lightbox.style.opacity = "1"; 
+  lightbox.style.opacity = "1";
+  document.getElementsByClassName("img").style.backgroundImage = url("\loelleFaceOil.jpg"); 
 }
 
 function hideLightbox2 () {
