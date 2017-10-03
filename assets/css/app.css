@@ -7772,8 +7772,131 @@ li.comment .comment-respond {
 
 
 
-
 #lightbox1 {
+	/** Default lightbox to hidden */
+  display: none;
+	/** Position and style */
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0%;
+	left: 0%;
+	background: rgba(0,0,0,0.8);
+  /* border-radius: 20px; */
+  /* border: 1px solid #CBA969; */
+  opacity: 0;
+  transition: all ease-in 300ms;
+  padding: 4%;
+  overflow: visible;
+}
+#lightbox2 {
+	/** Default lightbox to hidden */
+	
+  display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0%;
+	left: 0%;
+	background: rgba(0,0,0,0.8);
+  /* border-radius: 20px; */
+  /* border: 1px solid #CBA969; */
+  opacity: 0;
+  transition: all ease-in 300ms;
+  padding: 4%;
+  overflow: visible;
+}
+#lightbox3 {
+	/** Default lightbox to hidden */
+	
+  display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0%;
+	left: 0%;
+	background: rgba(0,0,0,0.8);
+  /* border-radius: 20px; */
+  /* border: 1px solid #CBA969; */
+  opacity: 0;
+  transition: all ease-in 300ms;
+  padding: 4%;
+  overflow: visible;
+}
+#lightbox4 {
+	/** Default lightbox to hidden */
+	
+  display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0%;
+	left: 0%;
+	background: rgba(0,0,0,0.8);
+  /* border-radius: 20px; */
+  /* border: 1px solid #CBA969; */
+  opacity: 0;
+  transition: all ease-in 300ms;
+  padding: 4%;
+  overflow: visible;
+}
+#lightbox5 {
+	/** Default lightbox to hidden */
+	
+  display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0%;
+	left: 0%;
+	background: rgba(0,0,0,0.8);
+  /* border-radius: 20px; */
+  /* border: 1px solid #CBA969; */
+  opacity: 0;
+  transition: all ease-in 300ms;
+  padding: 4%;
+  overflow: visible;
+}
+#lightbox6 {
+	/** Default lightbox to hidden */
+	
+  display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0%;
+	left: 0%;
+	background: rgba(0,0,0,0.8);
+  /* border-radius: 20px; */
+  /* border: 1px solid #CBA969; */
+  opacity: 0;
+  transition: all ease-in 300ms;
+  padding: 4%;
+  overflow: visible;
+}
+#lightbox7 {
 	/** Default lightbox to hidden */
 	
   display: none;
@@ -7831,6 +7954,7 @@ li.comment .comment-respond {
 .lightboxText {
   max-width: 100%;
   max-height: 100%;
+  color: #CBA969;
 }
 
 hr.style14 { 
@@ -7849,7 +7973,27 @@ hr.style14 {
   transform: translateY(-50%);
 }
 
+.lightboxChange {
+  border: 2px solid #CBA969;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+
+}
+
+.lightboxChange:hover {
+  background-color: #CBA969;
+  border-color: #CBA969;
+  color: #fff;
+}
+
+.lightboxPrev {
+}
+
   .close-btn-26 {
+    margin: 20px 0px 2px 0;
     display: block;
     position: relative;
     top: -11.5555555555556px;
