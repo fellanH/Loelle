@@ -5666,9 +5666,6 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 }
 
 /* Slider Style 2 */
-.parallax{
-    transform: translateY(n);
-}
 
 .slide-v2 {
   background-image: url("background.jpg");
