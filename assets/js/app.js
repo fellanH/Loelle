@@ -544,14 +544,92 @@ var DECENTTHEMES = DECENTTHEMES || {};
 //--------------ADAMS LIGHTBOX----------------//
 //--------------------------------------------//
 
-function showLightbox () {
+function showLightbox1 () {
   var lightbox = document.getElementById("lightbox1");
   lightbox.style.display = "block";
   lightbox.style.opacity = "1"; 
 }
 
-function hideLightbox () {
+function hideLightbox1 () {
   var lightbox = document.getElementById("lightbox1");
+  lightbox.style.display = "none";
+  lightbox.style.opacity = "0"; 
+  
+}
+
+function showLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "block";
+  lightbox.style.opacity = "1"; 
+}
+
+function hideLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "none";
+  lightbox.style.opacity = "0"; 
+  
+}
+
+function showLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "block";
+  lightbox.style.opacity = "1"; 
+}
+
+function hideLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "none";
+  lightbox.style.opacity = "0"; 
+  
+}
+
+function showLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "block";
+  lightbox.style.opacity = "1"; 
+}
+
+function hideLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "none";
+  lightbox.style.opacity = "0"; 
+  
+}
+
+function showLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "block";
+  lightbox.style.opacity = "1"; 
+}
+
+function hideLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "none";
+  lightbox.style.opacity = "0"; 
+  
+}
+
+function showLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "block";
+  lightbox.style.opacity = "1"; 
+}
+
+function hideLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "none";
+  lightbox.style.opacity = "0"; 
+  
+}
+
+function showLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
+  lightbox.style.display = "block";
+  lightbox.style.opacity = "1"; 
+}
+
+function hideLightbox2 () {
+  var lightbox = document.getElementById("lightbox2");
   lightbox.style.display = "none";
   lightbox.style.opacity = "0"; 
   
