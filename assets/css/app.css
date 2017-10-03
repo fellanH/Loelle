@@ -7948,6 +7948,10 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 }
 
 #main_menu .navbar-nav li.active a {
+  color: #CBA969;
+}
+
+#main_menu .navbar-nav li.active a {
     color: #CBA969;
 }
 
@@ -7987,9 +7991,16 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 #main_menu .navbar-nav .menu_button .button:hover,
 #main_menu .navbar-nav .menu_button .button:focus,
 #main_menu .navbar-nav .menu_button .button:active {
-    background: #B63C71;
-    border-color: #B63C71;
-    color: #fff !important;
+    background: #fff;
+    border-color: #fff;
+    color: #CBA969 !important;
+}
+
+ul li.ul-li-style-2:hover a,
+ul li.ul-li-style-2:focus a,
+ul li.ul-li-style-2:active a{
+  background: #B63C71;
+  color: #fff !important;
 }
 
 .scroll #main_menu .navbar-nav .menu_button .button {
