@@ -6032,7 +6032,11 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
   ## Our Gallery
   --------------------------------------------------------------*/
 .site-our-gallery {
-  background-color: #000;
+  background: #000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( #000, #151515); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #000,#151515); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient( #000,#151515); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( #000,#151515);
 }
 
 .site-our-gallery .section-heading {
