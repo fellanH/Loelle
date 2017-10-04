@@ -3920,7 +3920,7 @@ table tbody + tbody {
   ## Lookbooks
   --------------------------------------------------------------*/
 .grow { transition: all 2s ease-in-out; }
-.grow:hover { transform: scale(1.05); }
+.grow:hover { transform: scale(1.2); }
 
   .color-white{
   color: #fff;
@@ -7976,6 +7976,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 .transparent.nav_bg #main_menu .navbar-nav li a:hover,
 .transparent.nav_bg #main_menu .navbar-nav .open .dropdown-toggle {
     color: #CBA969;
+    background-color: #000;
 }
 
 #main_menu .navbar-nav .menu_button .button {
@@ -7987,13 +7988,13 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 #main_menu .navbar-nav .menu_button .button:hover,
 #main_menu .navbar-nav .menu_button .button:focus,
 #main_menu .navbar-nav .menu_button .button:active {
-    background: #B63C71;
-    border-color: #B63C71;
-    color: #fff !important;
+    color: #CBA969 !important;
+    background-color: #000;
 }
 
 .scroll #main_menu .navbar-nav .menu_button .button {
     margin-top: 12px;
+    
 }
 
 
