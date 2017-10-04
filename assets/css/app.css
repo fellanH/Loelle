@@ -7995,6 +7995,22 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
     margin-top: 12px;
     
 }
+/* ----------                 ---------- */
+/* ----------PRODUCTS TITEL ---------- */
+/* ----------              ---------- */
+
+.titel {
+  font-size: 40px;
+  padding-bottom: 40px;
+  color: #CBA969;
+}
+
+#site-products-masonry-v2{
+  padding-top: 40px;
+}
+
+
+
 
 
 
