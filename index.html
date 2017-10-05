@@ -39,6 +39,8 @@
   <link rel="stylesheet" href="dependencies/Swiper/css/swiper.min.css" type="text/css">
   <link rel="stylesheet" href="dependencies/magnific-popup/magnific-popup.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dependencies/Lightbox/featherlight.css" type="text/css">
+  
 
   <!-- Site Stylesheet -->
   <link rel="stylesheet" href="assets/css/app.css" type="text/css">
@@ -157,8 +159,13 @@
         <div class="products-list products-masonry-mixed" data-area="isotope-container">
           
           <div class="product-item grid-item cat-1">
-            <div class="item-image">
-              <img src="static/products/loelle/01.jpg" alt="01">
+            
+              <div class="item-image">
+              <a href="#" data-featherlight="#lightbox"><img src="static/products/loelle/01.jpg" alt="01"></a>
+              <div id="mylightbox" class="mylightbox"> </div>
+                 
+
+              
 
               <ul class="item-action">
                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
@@ -167,6 +174,7 @@
               </ul><!-- /.item-action -->
               
             </div><!-- /.item-image -->
+            
 
             <h2 class="item-title"><a href="#">Hairpin Legs Industrial Style</a></h2>
 
@@ -179,6 +187,8 @@
               <del class="del"><span class="currency">$</span> 150.00</del>
             </div><!-- /.item-price -->
           </div><!-- /.product-item grid-item -->
+
+
 
           <div class="product-item grid-item cat-3">
             <div class="item-image">
@@ -440,9 +450,8 @@
     ==========================================-->
 
      <section id="site-our-gallery" class="site-our-gallery">
-      <div class="row">
+      <div class="row is-flex">
         <div class="col-sm-6">
-          <div class="row">
             <div class="section-heading x3 has-graphic">
               <h2 class="section-title-small isAnimated fadeInUp" data-wow-delay="0.25s">Organic Luxury</h2>
               <div class="section-sub-heading color-white isAnimated fadeInUp" data-wow-delay="0.35s">All of our products are fairtrade and 100% organic</div>
@@ -450,18 +459,13 @@
                 Our coldpressed Arganoil is 100% organic. We work with an ECO-certified womman's cooperative in Marocko, where the oil is produced. <br> "ORGANIC PRODUCT OF THE YEAR" <br> - Beauty Awards <br> 2017
               </strong>
               </div><!-- /.section-description -->
-            </div><!-- /.section-heading -->
-          </div><!-- /.row -->
+            </div><!-- /.section-heading -->         
         </div><!-- /.col-sm-6 -->
-
-        <div class="col-sm-6">
-          <div class="row">
-            <div class="site-video-popup">
+          <div class="col-sm-6">
+              <div class="site-video-popup">
                 <img src="static/sections/our-gallery/video-screen.png" alt="Video Screen">
-              </a>
-            </div><!-- /.site-video-popup -->
-          </div><!-- /.row -->
-        </div><!-- /.col-sm-6 -->
+              </div><!-- /.site-video-popup -->
+          </div><!-- /.col-sm-6 -->
       </div><!-- /.row -->
     </section><!-- /#site-our-gallerys -->
      
@@ -693,6 +697,7 @@
   <script src="dependencies/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="dependencies/isotope/isotope.pkgd.min.js"></script>
   <script src="dependencies/wow/wow.min.js"></script>
+  <script src="dependencies/Lightbox/featherlight.js"></script>
 
   <!-- Site Scripts -->
   <script src="assets/js/app.js"></script>
