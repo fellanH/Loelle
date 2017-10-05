@@ -3929,7 +3929,7 @@ table tbody + tbody {
 .lookbook-item {
   position: relative;
   overflow: hidden;
-  width: 50%;
+  width: 80%;
 }
 
 #lookbook-img {
@@ -3953,6 +3953,7 @@ table tbody + tbody {
   color: #CBA969;
   line-height: 1;
   margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .lookbook-item > .lbk-content > a > .lbk-title:hover{
