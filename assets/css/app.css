@@ -4506,7 +4506,7 @@ table tbody + tbody {
 
 .menu-style-2-open {
   position: fixed; 
-  overflow-y: scroll;
+  overflow-y: scroll;  
   width: 100%;
 }
 
@@ -7521,8 +7521,9 @@ li.comment .comment-respond {
   margin-top: 40px;
 }
 
-
-
+/*--------------------------------------------------------------
+  ## Lightbox
+  --------------------------------------------------------------*/
 #lightbox1 {
 	/** Default lightbox to hidden */
   display: none;
@@ -7543,111 +7544,6 @@ li.comment .comment-respond {
   overflow: visible;
 }
 #lightbox2 {
-	/** Default lightbox to hidden */
-	
-  display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 9;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0%;
-	left: 0%;
-	background: rgba(0,0,0,0.8);
-  /* border-radius: 20px; */
-  /* border: 1px solid #CBA969; */
-  opacity: 0;
-  transition: all ease-in 300ms;
-  padding: 4%;
-  overflow: visible;
-}
-#lightbox3 {
-	/** Default lightbox to hidden */
-	
-  display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 9;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0%;
-	left: 0%;
-	background: rgba(0,0,0,0.8);
-  /* border-radius: 20px; */
-  /* border: 1px solid #CBA969; */
-  opacity: 0;
-  transition: all ease-in 300ms;
-  padding: 4%;
-  overflow: visible;
-}
-#lightbox4 {
-	/** Default lightbox to hidden */
-	
-  display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 9;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0%;
-	left: 0%;
-	background: rgba(0,0,0,0.8);
-  /* border-radius: 20px; */
-  /* border: 1px solid #CBA969; */
-  opacity: 0;
-  transition: all ease-in 300ms;
-  padding: 4%;
-  overflow: visible;
-}
-#lightbox5 {
-	/** Default lightbox to hidden */
-	
-  display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 9;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0%;
-	left: 0%;
-	background: rgba(0,0,0,0.8);
-  /* border-radius: 20px; */
-  /* border: 1px solid #CBA969; */
-  opacity: 0;
-  transition: all ease-in 300ms;
-  padding: 4%;
-  overflow: visible;
-}
-#lightbox6 {
-	/** Default lightbox to hidden */
-	
-  display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 9;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0%;
-	left: 0%;
-	background: rgba(0,0,0,0.8);
-  /* border-radius: 20px; */
-  /* border: 1px solid #CBA969; */
-  opacity: 0;
-  transition: all ease-in 300ms;
-  padding: 4%;
-  overflow: visible;
-}
-#lightbox7 {
 	/** Default lightbox to hidden */
 	
   display: none;
