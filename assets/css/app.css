@@ -3922,23 +3922,24 @@ table tbody + tbody {
 .grow { transition: all 2s ease-in-out; }
 .grow:hover { transform: scale(1.2); }
 
-  .color-white{
+.color-white{
   color: #fff;
 }
 
 .lookbook-item {
   position: relative;
   overflow: hidden;
+  width: 50%;
 }
 
-.lookbook-item > img {
-  width: 100%;
+#lookbook-img {
+  width: 100vh;
   height: auto;
 }
 
 .lookbook-item > .lbk-content {
   position: absolute;
-  top: 25%;
+  top: 10%;
   left: 30px;
   -ms-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -4028,7 +4029,7 @@ table tbody + tbody {
 
 .lookbooks-row > .lookbook-item {
   padding-left: 0px;
-  padding-right: 30px;
+  padding-right: 0px;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -4575,7 +4576,7 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   # Sections
   --------------------------------------------------------------*/
-.sectrion-series{
+.section-series{
   padding-top: 30px;
   margin: 0;
   background-color: #000;

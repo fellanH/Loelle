@@ -6,7 +6,7 @@ $(document).ready(function(){
     
 $('.scroll-btn').click(function() {
     $('html,body').animate({
-        scrollTop: $('.site-lookbooks-collection').offset().top},
+        scrollTop: $('.site-lookbooks-collection').offset().top -60},
         1000);
 });
 
