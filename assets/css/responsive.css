@@ -7,8 +7,28 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  .site-main-slider a{
+      left: 46%;
+  }
 }
 
 @media (max-width: 500px) {
-    
+   .site-main-slider a{
+     left: 43%;
+  }
+
+  .site-main-slider .swiper-slide .slide-heading{
+      margin-top: 30px;
+  }
+  .lookbooks-row {
+      height: 100vh;
+  }
+  .lbk-titel {
+      margin-top: 30px;
+  }
+
+  .lookbook-item > .lbk-content{
+      top: 15%;
+  }
 }
