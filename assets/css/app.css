@@ -1101,6 +1101,7 @@ table tbody + tbody {
 }
 
 @media (max-width: 790px) {
+
   #site-logo {
     max-width: 120px;
   }
@@ -1342,6 +1343,7 @@ table tbody + tbody {
 .lookbook-icon-2 > .section-heading {
   margin-top: 70px;
 }
+
 
 /*--------------------------------------------------------------
   ## Product Item
@@ -5142,9 +5144,7 @@ table tbody + tbody {
 }
 
 @media (max-width: 1024px) {
-  .site-main-slider {
-    max-height: 560px;
-  }
+  
   .site-main-slider .swiper-slide .slide-heading {
     font-size: 55px;
     font-size: 3.92857em;
@@ -5174,10 +5174,9 @@ table tbody + tbody {
 }
 
 @media (max-width: 768px) {
-  .site-main-slider {
-    max-height: 420px;
-  }
+
   .site-main-slider .swiper-slide .slide-heading {
+
     font-size: 42px;
     font-size: 3em;
   }
@@ -5206,9 +5205,7 @@ table tbody + tbody {
 }
 
 @media (max-width: 500px) {
-  .site-main-slider {
-    max-height: 275px;
-  }
+
   .site-main-slider .swiper-slide .slide-heading {
     font-size: 20px;
     font-size: 1.42857em;
@@ -5462,6 +5459,16 @@ table tbody + tbody {
 }
 
 @media (max-width: 768px) {
+  .slide-v2 {
+  background-image: url("background-mobile.jpg");
+  min-height: 500px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   .slide-v2 .slide-heading {
     margin-bottom: 15px;
   }
@@ -7793,6 +7800,9 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
   width: 100%;
   height: auto;
 }
+
+
+
 
 
 
