@@ -22,7 +22,7 @@
 	.st16{fill:url(#SVGID_29_);stroke:url(#SVGID_30_);stroke-width:3;stroke-miterlimit:10;}
 	.st17{stroke:url(#SVGID_31_);stroke-width:10;stroke-miterlimit:10;}
 	.st18{stroke:url(#SVGID_32_);stroke-width:10;stroke-miterlimit:10;}
-	.st19{fill:url(#SVGID_33_);stroke:url(#SVGID_34_);stroke-width:4;stroke-miterlimit:10;}
+	.st19{fill:url(#SVGID_33_);stroke:url(#SVGID_34_);stroke-width:10;stroke-miterlimit:10;}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="85.8407" y1="318.9995" x2="203.9356" y2="318.9995">
 	<stop  offset="0" style="stop-color:#5F3533"/>
@@ -316,7 +316,7 @@
 	<stop  offset="0" style="stop-color:#000000"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<linearGradient id="SVGID_34_" gradientUnits="userSpaceOnUse" x1="89.4588" y1="494.4408" x2="843.9355" y2="494.4408">
+<linearGradient id="SVGID_34_" gradientUnits="userSpaceOnUse" x1="84.452" y1="494.4408" x2="848.9423" y2="494.4408">
 	<stop  offset="0" style="stop-color:#5F3533"/>
 	<stop  offset="0.2245" style="stop-color:#CB9B51"/>
 	<stop  offset="0.45" style="stop-color:#F6E27A"/>
