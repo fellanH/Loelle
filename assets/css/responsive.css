@@ -89,4 +89,12 @@
       padding-bottom: 10px
       
   }
+
+  #ad-1 {
+  display: none;
+}
+
+#ad-2 {
+  display: none;
+}   
 }
