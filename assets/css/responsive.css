@@ -68,4 +68,24 @@
   #site-products-masonry-v2{
       display: none;
   }
+
+  .mobile-header{
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+    .section-series{
+        padding-top: 0px;
+    }
+
+  #lbk-btn{
+      display: inline-block !important;
+      float: none;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px
+      
+  }
 }

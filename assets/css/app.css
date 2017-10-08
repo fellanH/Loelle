@@ -7803,11 +7803,12 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
   height: auto;
 }
 
+/* RESPONSIVE STUFF */
 
-#series-header {
+
+.mobile-header{
   display: none;
 }
-
 
 
 
