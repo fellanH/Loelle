@@ -883,7 +883,7 @@ a:hover, a:focus {
 /*--------------------------------------------------------------
   ## Buttons
   --------------------------------------------------------------*/
-.bt-btn {
+.bt-btn,.bt-btn-2 {
   display: inline-block;
   padding: 17px 30px;
   background-color: #CBA969;
@@ -899,20 +899,26 @@ a:hover, a:focus {
   margin-top: 90px;
 }
 
-.bt-btn > i {
+.bt-btn > i, .bt-btn-2 > i  {
   margin-left: 40px;
   transition: all 0.15s ease-in-out;
   margin-right: -5px;
 }
 
-.bt-btn > i:after {
+.bt-btn > i:after,.bt-btn-2 > i:after {
   content: '';
   width: 1px;
   height: 100%;
   position: absolute;
   top: 0;
-  background-color: #af9b8b;
+  background-color: #CBA969;
   right: 60px;
+}
+
+.bt-btn-2:hover{
+   background-color: transparent;
+  border-color: #000;
+  color: #000;
 }
 
 .bt-btn.alt, .bt-btn:hover {
@@ -3194,6 +3200,7 @@ table tbody + tbody {
   line-height: 48px;
   line-height: 1.77778em;
   font-weight: 300;
+  color: #555;
 }
 
 .special-message-area .message > .highlighted {
@@ -3206,11 +3213,12 @@ table tbody + tbody {
   padding: 0 10px;
   letter-spacing: 0.3em;
   padding-top: 3px;
+  padding-right: 2px;
 }
 
 .transparent-section .special-message-area .message > .highlighted {
-  color: #CBA969;
-  background-color: #FFF;
+  color: #000;
+  background-color: transparent;
 }
 
 /*--------------------------------------------------------------
