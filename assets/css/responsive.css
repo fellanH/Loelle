@@ -28,6 +28,7 @@
 
   .lookbook-item{
       width: 100%;
+      margin-bottom: 0px;
   }
 
   .lookbook-item > .lbk-content{

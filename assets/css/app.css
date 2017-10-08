@@ -3939,7 +3939,7 @@ table tbody + tbody {
 
 .lookbook-item > .lbk-content {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 30px;
   -ms-transform: translateY(-50%);
       transform: translateY(-50%);
