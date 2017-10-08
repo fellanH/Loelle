@@ -9,13 +9,13 @@
   }
 
   .site-main-slider a{
-      left: 46%;
+      left: 50%;
   }
 }
 
 @media (max-width: 500px) {
    .site-main-slider a{
-     left: 43%;
+     left: 50%;
   }
 
   .site-main-slider .swiper-slide .slide-heading{
