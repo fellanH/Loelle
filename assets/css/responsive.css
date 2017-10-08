@@ -21,14 +21,32 @@
   .site-main-slider .swiper-slide .slide-heading{
       margin-top: 30px;
   }
-  .lookbooks-row {
-      height: 100vh;
-  }
+
   .lbk-titel {
       margin-top: 30px;
   }
 
+  .lookbook-item{
+      width: 100%;
+  }
+
   .lookbook-item > .lbk-content{
-      top: 15%;
+      display: none;
+      
+  }
+
+  #lookbook-img{
+      width: 100%;
+      max-width: 100vw;
+  }
+
+  #series-header{
+      display: block;
+      font-size: 30px;
+      padding-bottom: 0px;
+  }
+
+  #site-transparent-area{
+      display: none;
   }
 }
