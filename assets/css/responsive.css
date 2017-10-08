@@ -49,4 +49,22 @@
   #site-transparent-area{
       display: none;
   }
+
+  .site-our-gallery .section-heading {
+    margin-top: 10px;
+}
+
+.section-heading.has-graphic {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+  .section-heading{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  #site-products-masonry-v2{
+      display: none;
+  }
 }
