@@ -65,9 +65,9 @@
       margin-right: 10px;
   }
 
-  #site-products-masonry-v2{
+  /* #site-products-masonry-v2{
       display: none;
-  }
+  } */
 
   .mobile-header{
       display: block;
@@ -98,8 +98,7 @@
   display: none;
 }   
 
-#bf-3,
+/* #bf-3,
 #bf-8 {
     display: none;
-}
-}
+} */
