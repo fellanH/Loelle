@@ -1615,6 +1615,10 @@ table tbody + tbody {
   text-transform: uppercase;
 }
 
+.product-item > .item-title > a {
+  color: #CBA969;
+}
+
 .product-item > .item-stars {
   position: relative;
   width: 100px;
