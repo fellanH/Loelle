@@ -42,6 +42,7 @@
 
   <!-- Site Stylesheet -->
   <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
 
   <!-- Google Web Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,300,700,500,600|Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -59,59 +60,50 @@
    <!--=================================
     =            Site Header            =
     ==================================-->
-<header class="fixed">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand light" href="index.html">
-                <img src="assets/logo/logo_gold_simple_gradient.svg" height="32" alt="Loelle">
-            </a>
-            <a class="navbar-brand dark nodisplay" href="index.html">
-                <img src="assets/logo/logo_gold.svg" height="32" alt="Loelle">
-            </a>
-        </div>
-        <nav id="main_menu" class="mobile_menu navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="mobile_menu_title" style="display:none;">nav</li>
-                <li class=""><a href="index.html" class="">HOME</a></li>
-                <li class=""><a href="series-barbary.html" class="">BARBARY FIG SERIES</a></li>
-                <li class=""><a href="series-base.html" class="">BASE SERIES</a></li>
-                <li class=""><a href="about-us.html" class="">ABOUT US</a></li>
-                <li class="ul-li-style-2">
-                    <a href="http://www.loelle.se/" target="_blank"><i class="fa fa-calendar"></i> WEBSHOP</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header> 
-
-
-    <!--=================================
-    =            Page header            =
-    ==================================-->
-    <div class="dt-page-header transparent" data-bg-image="static/page-header/clothing.jpg">
-      <div class="container">
-        <h1 class="title">Barbary Figs Series</h1>
-      </div><!-- /.container -->
-    </div><!-- /.dt-page-header -->
-
-
-    <!--=======================================
-    =            Category Products            =
-    ========================================-->
-    
+<header class="fixed scroll">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand light" href="index.html">
+                        <img src="assets/logo/logo_gold_simple_gradient.svg" height="32" alt="Loelle">
+                    </a>
+                </div>
+                <nav id="main_menu" class="collapse mobile_menu navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="mobile_menu_title" style="display:none;">nav</li>
+                        <li class=""><a href="index.html" class="">HOME</a></li>
+                        <li class=""><a href="series-barbary.html" class="">BARBARY FIG SERIES</a></li>
+                        <li class=""><a href="series-base.html" class="">BASE SERIES</a></li>
+                        <li class=""><a href="about-us.html" class="">ABOUT US</a></li>
+                        <li class="menu_button">
+                            <a href="http://booking.visbook.com/se/1157" class="button  btn_yellow"><i class="fa fa-calendar"></i> WEBSHOP</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
     <!--====================================
     =                 Items                =
     =====================================-->
     <section id="site-thumbnail-menu" class="site-thumbnail-menu">
       <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight">
+        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" id="bf-1">
           <a href="#item-1" class="thumbnail-menu-bg">
             <img src="static/barbaryfig/01.jpg" alt="Thumbnail item 01">
+            <div class="item-caption">
+              <i class="fi-camisa-con-tirantes"></i>
+              <span>background 1</span>
+            </div>
+          </a><!-- /.thumbnail-menu-item -->
+        </div><!-- /.col-md-3 -->
+
+        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.25s" id="bf-2">
+          <a href="#item-1" class="thumbnail-menu-item">
+            <img src="static/barbaryfig/02.jpg" alt="Thumbnail item 02">
             <div class="item-caption">
               <i class="fi-camisa-con-tirantes"></i>
               <span>Hair Oil</span>
@@ -119,9 +111,20 @@
           </a><!-- /.thumbnail-menu-item -->
         </div><!-- /.col-md-3 -->
 
-        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.25s">
+        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.35s" id="bf-3"> 
+          <a href="#item-1" class="thumbnail-menu-bg">
+             <div class="bg-overlay"></div>
+            <img src="static/barbaryfig/03.jpg" class="grow-bg" alt="Thumbnail item 03"> 
+            <div class="item-caption">
+              <i class="fi-camisa-con-tirantes"></i>
+              <span>background 2</span>
+            </div>  
+          </a><!-- /.thumbnail-menu-item -->
+        </div><!-- /.col-md-3 -->
+
+        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.45s" id="bf-4"> 
           <a href="#item-1" class="thumbnail-menu-item">
-            <img src="static/barbaryfig/02.jpg" alt="Thumbnail item 02">
+            <img src="static/barbaryfig/04.jpg" alt="Thumbnail item 04">
             <div class="item-caption">
               <i class="fi-camisa-con-tirantes"></i>
               <span>Face Oil</span>
@@ -129,316 +132,9 @@
           </a><!-- /.thumbnail-menu-item -->
         </div><!-- /.col-md-3 -->
 
-        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.35s">
+        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" id="bf-5">
           <a href="#item-1" class="thumbnail-menu-bg">
-             <div class="bg-overlay"></div>
-            <img src="static/barbaryfig/03.jpg" class="grow-bg" alt="Thumbnail item 03">   
-          </a><!-- /.thumbnail-menu-item -->
-        </div><!-- /.col-md-3 -->
-
-        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.45s">
-          <a href="#item-1" class="thumbnail-menu-item">
-            <img src="static/barbaryfig/04.jpg" alt="Thumbnail item 04">
-            <div class="item-caption">
-              <i class="fi-camisa-con-tirantes"></i>
-              <span>Argan Oil Collection</span>
-            </div>
-          </a><!-- /.thumbnail-menu-item -->
-        </div><!-- /.col-md-3 -->
-      </div><!-- /.row -->
-    </section><!-- /#site-thumbnail-menu -->
-
-
-
-     <!--===================================
-    =            Site Products            =
-    ====================================-->
-    
-    <section id="site-products-masonry-v2" class="site-section section-products-masonry-mixed" data-area="isotope">
-      <div class="text-center titel isAnimated fadeInDown"><strong>BARBARY FIGS PRODUCTS</strong></div>
-      <div class="container">
-
-        <div class="products-filter">
-          <ul class="filter-items" data-area="isotope-filters">
-            <li><a class="active" href="#" data-filter=".cat-2">1</a></li>
-            <li><a href="#" data-filter=".cat-1">2</a></li>
-            <li><a href="#" data-filter=".cat-3">3</a></li>
-            <li><a href="#" data-filter=".cat-4">4</a></li>
-          </ul><!-- /.filter-item -->
-        </div><!-- /.product-filter -->
-
-        <div class="products-list products-masonry-mixed" data-area="isotope-container">
-          
-          <div class="product-item grid-item cat-1">
-            <div class="item-image">
-              <img src="static/products/loelle/01.jpg" alt="01">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-              
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Hairpin Legs Industrial Style</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          <div class="product-item grid-item cat-3">
-            <div class="item-image">
-              <img src="static/products/loelle/04.jpg" alt="04">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Vintage Clock</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          <div class="product-item grid-item cat-3">
-              <div class="item-image">
-                <img src="static/products/loelle/04.jpg" alt="04">
-  
-                <ul class="item-action">
-                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                  <li><a href="#"><i class="fa fa-random"></i></a></li>
-                </ul><!-- /.item-action -->
-              </div><!-- /.item-image -->
-  
-              <h2 class="item-title"><a href="#">Vintage Clock</a></h2>
-  
-              <div class="item-stars">
-                <span></span>
-              </div><!-- /.item-stars -->
-  
-              <div class="item-price">
-                <span><span class="currency">$</span> 125.00</span>
-                <del class="del"><span class="currency">$</span> 150.00</del>
-              </div><!-- /.item-price -->
-            </div><!-- /.product-item grid-item -->
-
-
-          <div class="product-item grid-item cat-1">
-            <div class="item-image">
-              <img src="static/products/loelle/02.jpg" alt="02">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Hudson Counter Stool</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          <div class="product-item grid-item cat-1">
-            <div class="item-image">
-              <img src="static/products/loelle/03.jpg" alt="03">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Industrial Floor Lamp</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          
-          <div class="product-item grid-item cat-2">
-            <div class="item-image">
-              <img src="static/products/loelle/05.jpg" alt="06">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Industrial Floor Lamp</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          <div class="product-item grid-item cat-2">
-            <div class="item-image">
-              <img src="static/products/loelle/06.jpg" alt="06">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Industrial Floor Lamp</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          <div class="product-item grid-item cat-3">
-            <div class="item-image">
-              <img src="static/products/loelle/07.jpg" alt="07">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Straight Razor</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          <div class="product-item grid-item cat-2">
-            <div class="item-image">
-              <img src="static/products/loelle/08.jpg" alt="08">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Hairpin Legs Industrial</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          <div class="product-item grid-item cat-4">
-            <div class="item-image">
-              <img src="static/products/loelle/05.jpg" alt="08">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Hairpin Legs Industrial</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-          <div class="product-item grid-item cat-4">
-            <div class="item-image">
-              <img src="static/products/loelle/08.jpg" alt="08">
-
-              <ul class="item-action">
-                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                <li><a href="#"><i class="fa fa-random"></i></a></li>
-              </ul><!-- /.item-action -->
-            </div><!-- /.item-image -->
-
-            <h2 class="item-title"><a href="#">Hairpin Legs Industrial</a></h2>
-
-            <div class="item-stars">
-              <span></span>
-            </div><!-- /.item-stars -->
-
-            <div class="item-price">
-              <span><span class="currency">$</span> 125.00</span>
-              <del class="del"><span class="currency">$</span> 150.00</del>
-            </div><!-- /.item-price -->
-          </div><!-- /.product-item grid-item -->
-
-        </div><!-- /.products-list -->
-
-      </div><!-- /.container -->
-    </section><!-- /#site-products-masonry -->
-
-
-     <!--====================================
-    =                 Items                =
-    =====================================-->
-    <section id="site-thumbnail-menu" class="site-thumbnail-menu">
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight">
-          <a href="#item-1" class="thumbnail-menu-bg">
-            <img src="static/barbaryfig/05.jpg" alt="Thumbnail item 05">
+            <img src="static/barbaryfig/05.jpg" alt="Thumbnail item 05" >
             <div class="item-caption">
               <i class="fi-camisa-con-tirantes"></i>
               <span>Hair Oil</span>
@@ -446,7 +142,7 @@
           </a><!-- /.thumbnail-menu-item -->
         </div><!-- /.col-md-3 -->
 
-        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.25s">
+        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.25s" id="bf-6">
           <a href="#item-1" class="thumbnail-menu-bg">
             <img src="static/barbaryfig/06.jpg" alt="Thumbnail item 06">
             <div class="item-caption">
@@ -456,7 +152,7 @@
           </a><!-- /.thumbnail-menu-item -->
         </div><!-- /.col-md-3 -->
 
-        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.35s">
+        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.35s" id="bf-7">
           <a href="#item-1" class="thumbnail-menu-item">
             <img src="static/barbaryfig/07.jpg" alt="Thumbnail item 07">
             <div class="item-caption">
@@ -466,7 +162,7 @@
           </a><!-- /.thumbnail-menu-item -->
         </div><!-- /.col-md-3 -->
 
-        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.45s">
+        <div class="col-md-3 col-sm-6 col-xs-6 isAnimated fadeInRight" data-wow-delay="0.45s" id="bf-8">
           <a href="#item-1" class="thumbnail-menu-bg">
             <img src="static/barbaryfig/08.jpg" class="grow-bg" alt="Thumbnail item 08">
             <div class="item-caption">
@@ -477,39 +173,6 @@
         </div><!-- /.col-md-3 -->
       </div><!-- /.row -->
     </section><!-- /#site-thumbnail-menu -->
-
-
-    <!--=========================================
-    =             ABOUT US                      =
-    ==========================================-->
-
-    <section id="site-our-gallery" class="site-our-gallery">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="row">
-            <div class="section-heading x3 has-graphic">
-              <h2 class="section-title-small isAnimated fadeInUp" data-wow-delay="0.25s">Organic Luxury</h2>
-              <div class="section-sub-heading color-white isAnimated fadeInUp" data-wow-delay="0.35s">All of our products are fairtrade and 100% organic</div>
-              <div class="section-description normal isAnimated fadeInUp" data-wow-delay="0.45s"> <strong>
-                Our coldpressed Arganoil is 100% organic. We work with an ECO-certified womman's cooperative in Marocko, where the oil is produced. <br> "ORGANIC PRODUCT OF THE YEAR" <br> - Beauty Awards <br> 2017
-              </strong>
-              </div><!-- /.section-description -->
-            </div><!-- /.section-heading -->
-          </div><!-- /.row -->
-        </div><!-- /.col-sm-6 -->
-
-        <div class="col-sm-6">
-          <div class="row">
-            <div class="site-video-popup">
-                <img src="static/sections/our-gallery/video-screen.png" alt="Video Screen">
-              </a>
-            </div><!-- /.site-video-popup -->
-          </div><!-- /.row -->
-        </div><!-- /.col-sm-6 -->
-      </div><!-- /.row -->
-    </section><!-- /#site-our-gallerys -->
-   
-
       <!--=================================
     =            Site Footer            =
     ==================================-->
@@ -583,6 +246,7 @@
 
   <!-- Site Scripts -->
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/extra.js"></script>
 
 
 

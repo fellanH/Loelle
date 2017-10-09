@@ -97,4 +97,9 @@
 #ad-2 {
   display: none;
 }   
+
+#bf-3,
+#bf-8 {
+    display: none;
+}
 }
