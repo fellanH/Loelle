@@ -5435,7 +5435,7 @@ table tbody + tbody {
 /* Slider Style 2 */
 
 .slide-v2 {
-  background-image: url("background.jpg");
+  background-image: url("background15.jpg");
   min-height: 500px;
   height: 100vh;
   background-attachment: fixed;
@@ -5493,7 +5493,7 @@ table tbody + tbody {
 
 @media (max-width: 768px) {
   .slide-v2 {
-  background-image: url("background-mobile.jpg");
+  background-image: url("bgm.jpg");
   min-height: 500px;
   height: 100vh;
   background-attachment: fixed;
