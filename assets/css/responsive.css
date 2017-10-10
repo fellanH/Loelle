@@ -77,6 +77,23 @@
 
 
 @media (max-width: 500px) {
+
+    .site-our-gallery {
+        margin-top: 40px;
+        border: none;
+    }
+
+   .section-heading > .section-title-small {
+    line-height: 1;
+    letter-spacing: 0.028em;
+    text-transform: uppercase;
+    color: #CBA969;
+    margin-top: 0;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+   }
+
    .site-main-slider a{
      left: 50%;
   }
@@ -121,11 +138,12 @@
 .section-heading.has-graphic {
     margin-bottom: 10px;
     padding-bottom: 10px;
+    
 }
 
   .section-heading{
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
   }
 
   .mobile-header{
