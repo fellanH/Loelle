@@ -1,6 +1,16 @@
 /* ----------                 ---------- */
 /* ----------    RESPONSIVE   ---------- */
 /* ----------                 ---------- */
+@media (max-width: 992px) {
+
+    #bf-4,
+    #bf-5,
+    #bf-6{
+        display: none;
+    }
+
+}
+
 
 @media (max-width: 768px) {
   .container>.navbar-header{
@@ -12,6 +22,7 @@
       left: 50%;
   }
 }
+
 
 @media (max-width: 500px) {
    .site-main-slider a{
@@ -98,7 +109,22 @@
   display: none;
 }   
 
+
+
+
+}
 /* #bf-3,
 #bf-8 {
     display: none;
 } */
+
+@media (max-width: 420px) {
+
+    .products-list.products-masonry-mixed > .product-item {
+    width: 90vw;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+
+}
