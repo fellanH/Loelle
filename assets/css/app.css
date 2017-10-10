@@ -95,6 +95,9 @@ body {
   background-color: #000;
 }
 
+p {
+  color: #CBA969;
+}
 .says,
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -151,7 +154,7 @@ section[class^=site] {
 }
 
 section {
-  border-top: 1px solid rgba(203, 169, 105, 0.45);
+  /* border-top: 1px solid rgba(203, 169, 105, 0.45); */
 }
 
 /*--------------------------------------------------------------
@@ -973,6 +976,7 @@ ul li {
 ul.stylish li {
   position: relative;
   list-style: none;
+  color: #fff;
 }
 
 ul.stylish li:before {
@@ -3340,6 +3344,7 @@ table tbody + tbody {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 0.028em;
+  color: #CBA969;
 }
 
 .product-single-details .product-reviews-meta {
@@ -3377,6 +3382,8 @@ table tbody + tbody {
   line-height: 1em;
   width: 60%;
   overflow: hidden;
+  color: #CBA969;  
+  
 }
 
 .product-single-details .product-reviews-meta > .star-ratting > .value-stars:before {
@@ -3395,7 +3402,7 @@ table tbody + tbody {
 }
 
 .product-single-details .product-reviews-meta a {
-  color: #9d9d9d;
+  color: #fff;
 }
 
 .product-single-details .product-reviews-meta a:hover {
@@ -3420,7 +3427,7 @@ table tbody + tbody {
   font-size: 14px;
   font-size: 0.77778em;
   font-weight: 400;
-  color: #9d9d9d;
+  color: #999999;
 }
 
 .product-single-details .product-description {
@@ -3429,6 +3436,7 @@ table tbody + tbody {
   line-height: 22px;
   line-height: 1.57143em;
   margin-bottom: 40px;
+  color: #CBA969;
 }
 
 .product-single-details .product-order-form .product-variations {
@@ -3438,6 +3446,7 @@ table tbody + tbody {
 .product-single-details .product-order-form .product-variations > .variation-item > .variation-name {
   font-weight: 700;
   margin-right: 10px;
+  color: #999999;  
 }
 
 .product-single-details .product-order-form .product-variations > .variation-item.type-checkbox > label {
@@ -3498,6 +3507,7 @@ table tbody + tbody {
   float: left;
   font-weight: 700;
   margin-right: 10px;
+  color: #fff;  
 }
 
 .product-single-details .product-order-form .product-action > div.product-quantity > .quantity {
@@ -3512,7 +3522,7 @@ table tbody + tbody {
 
 .product-single-details .product-order-form .product-action > div.product-quantity > input {
   width: 80px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #CBA969;
   padding: 12px;
   height: 50px;
   margin-bottom: 0;
@@ -3520,6 +3530,9 @@ table tbody + tbody {
   font-weight: 700;
   text-align: center;
   transition: all 0.15s ease-in-out;
+  color: #fff;
+  background-color: #CBA969;
+  
 }
 
 .product-single-details .product-order-form .product-action > div.product-quantity > input:focus {
@@ -3633,8 +3646,8 @@ table tbody + tbody {
   display: inline-block;
   width: 48px;
   height: 48px;
-  background-color: #fff;
-  color: #CBA969;
+  background-color: #CBA969;
+  color: #fff;
   text-align: center;
   font-size: 20px;
   border: 1px solid #CBA969;
@@ -3643,8 +3656,8 @@ table tbody + tbody {
 }
 
 .product-single-details .product-order-form .product-action > div.product-compare-love > a:hover {
-  background-color: #CBA969;
-  color: #FFF;
+  background-color: #000;
+  color: #CBA969;
 }
 
 .product-single-details .product-order-form .product-action > div.product-order > button {
@@ -3660,22 +3673,22 @@ table tbody + tbody {
 }
 
 .product-single-details .product-order-form .product-action > div.product-order > button:hover, .product-single-details .product-order-form .product-action > div.product-order > button:focus {
-  background-color: #FFF;
+  background-color: #000;
   color: #CBA969;
   outline: none;
 }
 
 .product-single-details .product-additional-info {
   padding: 35px 30px;
-  background-color: #f4f4f4;
-  border: 1px solid #ebebeb;
+  background-color: #000;
+  border: 1px solid #CBA969;
 }
 
 .product-single-details .product-additional-info > .title {
   margin-top: 0;
   margin-bottom: 25px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #CBA969;
 }
 
 .product-single-details .product-additional-info p {
@@ -3787,6 +3800,7 @@ table tbody + tbody {
   line-height: 1em;
   width: 60%;
   overflow: hidden;
+  color: #CBA969;  
 }
 
 .product-reviews > .reviews-items > li > .reviewer-content > .star-ratting > .value-stars:before {
@@ -6257,9 +6271,8 @@ table tbody + tbody {
   ## Product Contents
   --------------------------------------------------------------*/
 .product-content-area {
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   padding-bottom: 60px;
-  border-bottom: 1px solid #ebebeb;
 }
 
 /*--------------------------------------------------------------
@@ -7885,10 +7898,10 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 	background: rgba(0,0,0,0.8);
   /* border-radius: 20px; */
   /* border: 1px solid #CBA969; */
+  opacity: 0;
   padding: 4%;
   overflow: visible;
 }
-
 
  @media screen and (max-width: 768px) {
   /*#modal1 {
@@ -7936,7 +7949,7 @@ hr.style14 {
   border: 0; 
   height: 1px; 
   width: 90%;
-  background-image: -webkit-linear-gradient(left, rgba(203, 169, 105, 0.38), #CBA969,rgba(203, 169, 105, 0.38));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.38), #CBA969,rgba(0, 0, 0, 0.38));
   background-image: -moz-linear-gradient(left,rgba(203, 169, 105, 0.38), #CBA969,rgba(203, 169, 105, 0.38));
   background-image: -ms-linear-gradient(left,rgba(203, 169, 105, 0.38), #CBA969,rgba(203, 169, 105, 0.38));
   background-image: -o-linear-gradient(left,rgba(203, 169, 105, 0.38), #CBA969,rgba(203, 169, 105, 0.38)); 
