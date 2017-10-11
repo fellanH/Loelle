@@ -89,6 +89,7 @@ $('.tile')
 //--------------------------------------------//
 
 
+
 // Get the modal
 var modal1 = document.getElementById('modal1');
 // Get the button that opens the modal
