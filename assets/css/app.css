@@ -925,8 +925,8 @@ a:hover, a:focus {
 
 .bt-btn-2:hover{
    background-color: transparent;
-  border-color: #000;
-  color: #000;
+  border-color: #CBA969;
+  color: #CBA969;
 }
 
 .bt-btn.alt, .bt-btn:hover {
@@ -5540,7 +5540,7 @@ table tbody + tbody {
 /* Slider Style 2 */
 
 .slide-v2 {
-  background-image: url("background15.jpg");
+  background-image: url("background14.jpg");
   min-height: 500px;
   height: 100vh;
   background-attachment: fixed;
