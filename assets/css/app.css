@@ -1688,8 +1688,8 @@ table tbody + tbody {
   text-decoration: none;
 }
 
-.product-item:hover > a > .item-image > img {
-  opacity: 0.2;
+.product-item > a > .item-image:hover > img {
+  opacity: .25;
 }
 
 .product-item:hover > a > .item-image > .item-action > li {
@@ -2806,6 +2806,85 @@ table tbody + tbody {
 
 .thumbnail-menu-bg:hover:before {
   opacity: 0;
+}
+
+/*--------------------------------------------------------------
+  ## Site products hover
+  --------------------------------------------------------------*/
+
+.item-image > .item-caption {
+  position: absolute;
+  text-align: center;
+  color: #FFF;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
+.item-image > .item-caption > i,
+.item-image > .item-caption > span {
+  display: block;
+  position: relative;
+}
+
+.item-image > .item-caption > i {
+  font-size: 46px;
+  font-size: 3.28571em;
+  margin-bottom: 20px;
+  opacity: 0;
+  -ms-transform: translateY(100%);
+      transform: translateY(100%);
+  transition: all 0.35s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.15s;
+}
+
+.item-image > .item-caption > i:after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: #FFF;
+  left: 50%;
+  bottom: -10px;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+}
+
+.item-image > .item-caption > span {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-size: 1.14286em;
+  opacity: 0;
+  -ms-transform: translateY(100%);
+      transform: translateY(100%);
+  transition: all 0.35s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.25s;
+}
+
+.item-image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* 165, 142, 124, 0.95 */
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item-image:hover > .item-caption {
+  opacity: 1;
+}
+
+.item-image:hover > .item-caption > i,
+.item-image:hover > .item-caption > span {
+  opacity: 1;
+  -ms-transform: translateY(0);
+      transform: translateY(0);
+}
+
+.item-image:hover:before {
+  opacity: 1;
 }
 
 
@@ -3962,7 +4041,7 @@ table tbody + tbody {
   ## Lookbooks
   --------------------------------------------------------------*/
 .grow { transition: all 2s ease-in-out; }
-.grow:hover { transform: scale(1.2); }
+.lookbook-item:hover > a > .grow { transform: scale(1.2); }
 
 
 
