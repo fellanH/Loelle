@@ -46,6 +46,10 @@
         display: none;
     }
 
+    .logo-col{
+        width: 33%;
+    }
+
 }
 
 
