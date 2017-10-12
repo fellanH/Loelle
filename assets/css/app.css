@@ -5540,7 +5540,7 @@ table tbody + tbody {
 /* Slider Style 2 */
 
 .slide-v2 {
-  background-image: url("background14.jpg");
+  background-image: url("background-paint.jpg");
   min-height: 500px;
   height: 100vh;
   background-attachment: fixed;
@@ -5563,14 +5563,17 @@ table tbody + tbody {
 
 .slide-v2 .slide-heading {
   margin-bottom: 30px;
+  text-shadow: -5px 3px 9px rgba(0, 0, 0, 0.5);
 }
 
 .slide-v2 .slide-heading-small {
   margin-bottom: 20px;
+  text-shadow: -5px 3px 9px rgba(0, 0, 0, 0.5);
 }
 
 .slide-v2 .slide-caption-content {
-  position: relative;
+  position: relative;  
+  text-shadow: -5px 3px 9px rgba(0, 0, 0, 0.5);
 }
 
 .slide-v2 .slide-caption-content:after {
@@ -5584,6 +5587,7 @@ table tbody + tbody {
   opacity: 0;
   transition: opacity 0.15s ease-in-out;
   transition-delay: 1.5s;
+  text-shadow: -5px 3px 9px rgba(0, 0, 0, 0.5);
 }
 
 
