@@ -7884,7 +7884,8 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
   color: #CBA969;
 }
 
-#site-products-masonry-v2{
+#site-products-masonry-v2,
+#site-products-masonry-v3 {
   padding-top: 40px;
 }
 
@@ -8160,8 +8161,13 @@ hr.style14 {
     margin-bottom: auto;
   }
 
-  #site-products-masonry-v2 > .titel {
+  #site-products-masonry-v2 > .titel,
+  #site-products-masonry-v3 > .titel {
     padding-bottom: 0px;
+  }
+
+  #site-products-masonry-v3 {
+    display: none;
   }
 
   .hr-div{
