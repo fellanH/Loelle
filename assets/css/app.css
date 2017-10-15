@@ -1641,7 +1641,7 @@ table tbody + tbody {
   margin-top: 20px;
   margin-bottom: 15px;
   line-height: 1em;
-  color: #ffc700;
+  color: #BB546B;
 }
 
 .product-item > .item-stars > span {
@@ -3284,7 +3284,7 @@ table tbody + tbody {
 }
 
 .products-filter > .filter-items > li > a:hover:after, .products-filter > .filter-items > li > a.active:after {
-  background-color: #CBA969;
+  background-color: #BB546B;
   width: 40px;
   margin-left: -20px;
 }
@@ -5118,6 +5118,9 @@ table tbody + tbody {
 
 .site-main-slider .swiper-slide .color-white {
   color: #FFF;
+}
+.site-main-slider .swiper-slide .color-rose {
+  color: #BB546B;
 }
 
 .site-main-slider .swiper-slide .font-alt {
@@ -7978,6 +7981,9 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 
 .color-white{
   color: #fff !important;
+}
+.color-rose{
+  color: #BB546B !important;
 }
 
 .site-thumbnail-menu > .row,
