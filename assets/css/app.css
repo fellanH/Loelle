@@ -8010,6 +8010,10 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
   padding-top: 20px;
 }
 
+.border-none {
+  border-top: 0px solid #000 !important;
+  border-bottom:  0px solid #000 !important;
+}
 
 
 
