@@ -5981,13 +5981,13 @@ table tbody + tbody {
 
 .special-title-gray2 {
   text-transform: uppercase;
-  font-size: 22px;
-  font-size: 1.57143em;
+  font-size: 46px;
+  font-size: 3.28571em;
   font-weight: 700;
   letter-spacing: 0.028em;
   line-height: 60px;
   line-height: 1.30435em;
-  color: #999999;
+  color: #9d9d9d9d;
   margin-bottom: 30px;
 }
 .site-special-area .special-title {
@@ -6000,6 +6000,10 @@ table tbody + tbody {
   line-height: 1.30435em;
   color: #CBA969;
   margin-bottom: 30px;
+}
+
+.dark-gray {
+  color: #9d9d9d9d !important;
 }
 
 .site-special-area .special-content {
