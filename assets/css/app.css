@@ -771,7 +771,7 @@ section {
 #preloader {
   background-color: rgba(165, 142, 124, 0.95);
   position: fixed;
-  top: 64px;
+  top: 74px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -4028,7 +4028,7 @@ table tbody + tbody {
 
   .dt-page-header {
   padding: 50px 0;
-  margin-top: 64px;
+  margin-top: 74px;
   background: #2f2c2c;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7746,6 +7746,15 @@ header.transparent.navbar-fixed-top {
     position: fixed;
 }
 
+.navbar-fixed-top {
+  padding: 5px;
+}
+
+.align-logo {
+  position: relative;
+  top: 5px;
+}
+
 header .nodisplay {
     display: none;
 }
@@ -7758,9 +7767,10 @@ header.transparent.nav_bg {
 
 header .navbar-header .navbar-brand {
     padding: 15px 0;
-    margin-top: 15px;
+    margin-top: 150px;
     -webkit-transition: all .3s;
     transition: all .3s;
+    float: none;
 }
 
 header.scroll .navbar-header .navbar-brand {
