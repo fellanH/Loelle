@@ -1337,7 +1337,7 @@ table tbody + tbody {
   content: '';
   width: 40px;
   height: 2px;
-  background-color: #000;
+  /* background-color: #000; */
 }
 
 .section-heading.x2 > .section-title {
