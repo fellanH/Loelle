@@ -3328,7 +3328,7 @@ table tbody + tbody {
 }
 
 .transparent-section .special-message-area .message > .highlighted {
-  color: #000;
+  color: #fff;
   background-color: url("static/special-area/v2/beackground7");
 }
 
