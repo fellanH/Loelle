@@ -1373,6 +1373,24 @@ table tbody + tbody {
   margin-right: auto;
 }
 
+
+@media (max-width: 991px) {
+  .margin-offset {
+    margin-bottom: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .margin-offset {
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+
+
+
 .product-item > a > .item-image {
   position: relative;
   overflow: hidden;
