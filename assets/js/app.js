@@ -354,7 +354,7 @@ var DECENTTHEMES = DECENTTHEMES || {};
         var $portfolio =  $(container).isotope({
           itemSelector: '.grid-item',
           masonry: {
-            columnWidth: 2
+            columnWidth: 1
           }
         });
 
