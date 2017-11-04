@@ -771,7 +771,7 @@ section {
 #preloader {
   background-color: rgba(165, 142, 124, 0.95);
   position: fixed;
-  top: 69px;
+  top: 74px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -1373,7 +1373,6 @@ table tbody + tbody {
   margin-right: auto;
 }
 
-
 @media (max-width: 991px) {
   .margin-offset {
     margin-bottom: 13px;
@@ -1384,12 +1383,6 @@ table tbody + tbody {
     margin-bottom: 30px;
   }
 }
-
-
-
-
-
-
 
 .product-item > a > .item-image {
   position: relative;
@@ -4044,9 +4037,18 @@ table tbody + tbody {
   ## Page Header
   --------------------------------------------------------------*/
 
+@media (max-width: 768px) {
+  .dt-page-header {
+    margin-top: 69px !important;
+  }
+   #preloader {
+     top: 69px;
+   }
+}
+
   .dt-page-header {
   padding: 50px 0;
-  margin-top: 69px;
+  margin-top: 74px;
   background: #2f2c2c;
   background-size: cover;
   background-repeat: no-repeat;
