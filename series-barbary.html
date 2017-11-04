@@ -187,33 +187,21 @@
         </div><!-- /.col-md-3 -->
 
         <div class="col-md-2 col-sm-4 col-xs-6 " data-wow-delay="0.25s" id="bf-2">
-          <a href="product-hair-oil.html" class="thumbnail-menu-item">
+          <div class="thumbnail-menu-bg">
             <img src="static/barbaryfig/02.jpg" alt="Thumbnail item 02">
-            <div class="item-caption">
-              <i class="fi-camisa-con-tirantes"></i>
-              <span>Hair Oil</span>
-            </div>
-          </a><!-- /.thumbnail-menu-item -->
+          </div><!-- /.thumbnail-menu-item -->
         </div><!-- /.col-md-3 -->
 
         <div class="col-md-2 col-sm-4 col-xs-6 " data-wow-delay="0.35s" id="bf-3"> 
-          <a href="product-face-oil.html" class="thumbnail-menu-item">
+          <div class="thumbnail-menu-bg">
             <img src="static/barbaryfig/03.jpg" class="grow-bg" alt="Thumbnail item 03"> 
-            <div class="item-caption">
-              <i class="fi-camisa-con-tirantes"></i>
-              <span>Face Oil</span>
-            </div>  
-          </a><!-- /.thumbnail-menu-item -->
+            </div><!-- /.thumbnail-menu-item -->
         </div><!-- /.col-md-3 -->
 
         <div class="col-md-2 col-sm-4 col-xs-6 " data-wow-delay="0.45s" id="bf-4"> 
-          <a href="product-face-serum.html" class="thumbnail-menu-item">
+          <div class="thumbnail-menu-bg">
             <img src="static/barbaryfig/04.jpg" alt="Thumbnail item 04">
-            <div class="item-caption">
-              <i class="fi-camisa-con-tirantes"></i>
-              <span>Face Serum</span>
-            </div>
-          </a><!-- /.thumbnail-menu-item -->
+          </div><!-- /.thumbnail-menu-item -->
         </div><!-- /.col-md-3 -->
 
         <div class="col-md-2 col-sm-4 col-xs-6 " id="bf-5">
@@ -285,7 +273,7 @@
           </ul>
 
           <div class="copyright-info">
-            Copyright &copy; 2017 - All Rights Reserved
+            Copyright &copy; 2017 <a href="http://www.loelle.se" target="_blank"> Loelle AB </a> - All Rights Reserved &nbsp | &nbsp Designed by <a href="http://www.breakfastboys.se" target="_blank"> Breakfast Boys</a>
           </div><!-- /.copyright-info -->
         </div><!-- /.copyright-area -->
       </div><!-- /.container -->
@@ -306,33 +294,6 @@
   <!-- Site Scripts -->
   <script src="assets/js/app.js"></script>
   <script src="assets/js/extra.js"></script>
-
-
-  <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-
-    $('body').scrollspy({target: '.target', offset: fix_header_height}) 
-
-
-
-$('.target').click(function () { $('body').animate(
-{ scrollTop: $($(this).attr('href')).offset().top - fix_header_height }, 500) return })
-
-  </script>
-
 
 </body>
 </html>

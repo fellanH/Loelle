@@ -3329,7 +3329,7 @@ table tbody + tbody {
 
 .transparent-section .special-message-area .message > .highlighted {
   color: #000;
-  background-color: transparent;
+  background-color: url("static/special-area/v2/beackground7");
 }
 
 /*--------------------------------------------------------------
@@ -5564,7 +5564,7 @@ table tbody + tbody {
 /* Slider Style 2 */
 
 .slide-v2 {
-  background-image: url("barbary-2.jpg");
+  background-image: url("background-paint.jpg");
   min-height: 500px;
   height: 100vh;
   background-attachment: fixed;
@@ -6393,6 +6393,7 @@ table tbody + tbody {
 .transparent-section {
   background-size: cover;
   color: #FFF;
+  padding: 50px;
 }
 
 /*--------------------------------------------------------------
