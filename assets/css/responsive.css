@@ -39,6 +39,12 @@
 
 
 @media (max-width: 766px) {
+    #main_menu {
+        float: left;
+        margin: 0;
+        padding: 0;
+        padding-top: 3px;
+    }
 
     #bf-5,
     #bf-6{
