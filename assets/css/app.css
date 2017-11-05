@@ -8256,6 +8256,14 @@ hr.style14 {
     width: 50%;
   }
 
+  #on-hover{
+    color: #fff;
+  }
+
+  #on-hover:hover{
+    color:#CBA969;
+  }
+
   #site-clients-logo > .container {
     margin-left: auto;
     margin-right: auto;
