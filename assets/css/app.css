@@ -8258,6 +8258,7 @@ hr.style14 {
 
   #on-hover{
     color: #fff;
+    font-style: italic;
   }
 
   #on-hover:hover{
