@@ -8256,6 +8256,14 @@ hr.style14 {
     width: 50%;
   }
 
+  .about-list > li {
+    padding-top: 15px;
+  }
+
+  .about-list {
+    list-style-type: none;
+  }
+
   #on-hover{
     color: #fff;
     font-style: italic;
