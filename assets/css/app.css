@@ -402,6 +402,10 @@ section {
   content: "\f131";
 }
 
+.main-slider-v3{
+  display: none;
+}
+
 /*--------------------------------------------------------------
   ## WordPress base fix
   --------------------------------------------------------------*/
@@ -907,6 +911,11 @@ a:hover, a:focus {
   text-transform: uppercase;
   position: relative;
   border: 1px solid transparent;
+}
+
+.bt-bg {
+  color: #CBA969;
+  outline-width: 2px;
 }
 
 .bt-btn.special {
@@ -5147,6 +5156,9 @@ table tbody + tbody {
 .site-main-slider .swiper-slide .color-rose {
   color: #BB546B;
 }
+.site-main-slider .swiper-slide .color-gold {
+  color: #CBA969;
+}
 
 .site-main-slider .swiper-slide .font-alt {
   font-family: "Playfair Display", serif;
@@ -8037,6 +8049,14 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 
 .color-rose{
   color: #BB546B !important;
+}
+
+.color-gold{
+  color: #CBA969 !important;
+}
+
+.color-gold:hover {
+  color: #FFF !important;
 }
 
 .site-thumbnail-menu > .row,

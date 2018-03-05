@@ -74,6 +74,14 @@
   display: none;
 }
 
+.main-slider-v2{
+    display: none;
+}
+
+.main-slider-v3{
+    display: block;
+}
+
  .mobile-header{
       display: block;
       text-align: center;
