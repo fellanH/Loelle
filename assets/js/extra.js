@@ -4,10 +4,16 @@ $(document).ready(function(){
 //-----------       SCROLL BTN        --------//
 //--------------------------------------------//
     
-$('.scroll-btn').click(function() {
+$('.moveDown').click(function() {
     $('html,body').animate({
-        scrollTop: $('.site-lookbooks-collection').offset().top -60},
+        scrollTop: $('.site-ads-section').offset().top -60},
         1000);
+});
+
+$('.button-1').click(function() {
+    $('html,body').animate({
+        scrollTop: $('.site-our-gallery').offset().top -60},
+        2000);
 });
 
 //--------------------------------------------//
