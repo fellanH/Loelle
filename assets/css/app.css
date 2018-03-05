@@ -4079,7 +4079,7 @@ table tbody + tbody {
   position: relative;
   overflow: hidden;
   width: 80%;
-  background-color: #FFF;
+  background-color: #000;
 }
 
 #lookbook-img {
