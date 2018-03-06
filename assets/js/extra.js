@@ -6,7 +6,7 @@ $(document).ready(function(){
     
 $('.moveDown').click(function() {
     $('html,body').animate({
-        scrollTop: $('.site-ads-section').offset().top -60},
+        scrollTop: $('.site-lookdisplay-section').offset().top -60},
         1000);
 });
 

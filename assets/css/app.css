@@ -2645,7 +2645,7 @@ table tbody + tbody {
   background: linear-gradient(#000, #151515);
 }
 
-.site-ads-section {
+.site-lookdisplay-section {
   background: #000; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#151515, #000); /* Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#151515, #000); /* For Opera 11.6 to 12.0 */
@@ -3055,7 +3055,7 @@ table tbody + tbody {
 /*--------------------------------------------------------------
   ## Ads
   --------------------------------------------------------------*/
-.ad-box {
+.lookdisplay-box {
   height: 700px;
   position: relative;
   background-size: 100% auto;
@@ -3065,7 +3065,7 @@ table tbody + tbody {
   margin: 25px 0;
 }
 
-.ad-box .ad-content {
+.lookdisplay-box .lookdisplay-content {
   position: absolute;
   left: 0;
   right: 0;
@@ -3073,7 +3073,7 @@ table tbody + tbody {
   padding: 60px;
 }
 
-.ad-box .ad-content .ad-lead {
+.lookdisplay-box .lookdisplay-content .lookdisplay-lead {
   font-size: 65px;
   font-size: 4.64286em;
   color: #CBA969;
@@ -3081,21 +3081,21 @@ table tbody + tbody {
   margin-bottom: 15px;
 }
 
-.ad-box .ad-content .ad-lead.x1 {
+.lookdisplay-box .lookdisplay-content .lookdisplay-lead.x1 {
   font-size: 100px;
   font-size: 6em;
 }
 
-.ad-box .ad-content .ad-lead.x2 {
+.lookdisplay-box .lookdisplay-content .lookdisplay-lead.x2 {
   font-size: 120px;
   font-size: 8.57143em;
 }
 
-.ad-box .ad-content .ad-lead > span {
+.lookdisplay-box .lookdisplay-content .lookdisplay-lead > span {
   font-weight: 700;
 }
 
-.ad-box .ad-content .ad-desc-1 {
+.lookdisplay-box .lookdisplay-content .lookdisplay-desc-1 {
   font-size: 32px;
   font-size: 2.28571em;
   color: #fff;
@@ -3106,7 +3106,7 @@ table tbody + tbody {
   font-size: 3.42857em;
 }
 
-.ad-box .ad-content .ad-desc {
+.lookdisplay-box .lookdisplay-content .lookdisplay-desc {
   font-size: 32px;
   font-size: 1.88571em;
   color: #000;
@@ -3115,148 +3115,148 @@ table tbody + tbody {
   margin-bottom: 25px;
 }
 
-.ad-box .ad-content .ad-desc.x2 {
+.lookdisplay-box .lookdisplay-content .lookdisplay-desc.x2 {
   font-size: 48px;
   font-size: 3.42857em;
 }
 
-.ad-box .ad-content .ad-desc > span {
+.lookdisplay-box .lookdisplay-content .lookdisplay-desc > span {
   font-weight: 900;
 }
 
-.ad-box .ad-content .ad-action {
+.lookdisplay-box .lookdisplay-content .lookdisplay-action {
   padding-top: 25px;
 }
 
-.ad-box .ad-content.v2 .ad-lead {
+.lookdisplay-box .lookdisplay-content.v2 .lookdisplay-lead {
   float: left;
   padding-right: 25px;
 }
 
-.ad-box.bottom-right .ad-content {
+.lookdisplay-box.bottom-right .lookdisplay-content {
   text-align: right;
   top: auto;
   bottom: 0;
 }
 
-.ad-box.top-left .ad-content {
+.lookdisplay-box.top-left .lookdisplay-content {
   text-align: left;
 }
 
-.ad-box.v2 > .ad-content {
+.lookdisplay-box.v2 > .lookdisplay-content {
   padding-top: 130px;
   padding-bottom: 130px;
 }
 
 @media (max-width: 1024px) {
-  .ad-box {
+  .lookdisplay-box {
     height: 375px;
   }
-  .ad-box .ad-content {
+  .lookdisplay-box .lookdisplay-content {
     padding: 35px;
   }
-  .ad-box .ad-content .ad-lead {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead {
     font-size: 30px;
     font-size: 2.14286em;
   }
-  .ad-box .ad-content .ad-lead.x1 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead.x1 {
     font-size: 50px;
     font-size: 3.57143em;
   }
-  .ad-box .ad-content .ad-lead.x2 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead.x2 {
     font-size: 75px;
     font-size: 5.35714em;
   }
-  .ad-box .ad-content .ad-desc {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-desc {
     font-size: 20px;
     font-size: 1.42857em;
   }
-  .ad-box .ad-content .ad-desc.x2 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-desc.x2 {
     font-size: 32px;
     font-size: 2.28571em;
   }
-  .ad-box.v2 .ad-content {
+  .lookdisplay-box.v2 .lookdisplay-content {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 
 @media (max-width: 768px) {
-  .ad-box {
+  .lookdisplay-box {
     height: 450px;
     background-size: auto 100%;
   }
-  .ad-box .ad-content {
+  .lookdisplay-box .lookdisplay-content {
     padding: 35px;
   }
-  .ad-box .ad-content .ad-lead {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead {
     font-size: 60px;
     font-size: 4.28571em;
   }
-  .ad-box .ad-content .ad-lead.x1 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead.x1 {
     font-size: 80px;
     font-size: 5.71429em;
   }
-  .ad-box .ad-content .ad-lead.x2 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead.x2 {
     font-size: 90px;
     font-size: 6.42857em;
   }
-  .ad-box .ad-content .ad-desc {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-desc {
     font-size: 20px;
     font-size: 1.42857em;
   }
-  .ad-box .ad-content .ad-desc.x2 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-desc.x2 {
     font-size: 32px;
     font-size: 2.28571em;
   }
-  .ad-box.v2 .ad-content {
+  .lookdisplay-box.v2 .lookdisplay-content {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 
 @media (max-width: 500px) {
-  .ad-box {
+  .lookdisplay-box {
     height: 250px;
     background-size: auto 100%;
   }
-  .ad-box .ad-content {
+  .lookdisplay-box .lookdisplay-content {
     padding: 15px;
   }
-  .ad-box .ad-content .ad-lead {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead {
     font-size: 25px;
     font-size: 1.78571em;
   }
-  .ad-box .ad-content .ad-lead.x1 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead.x1 {
     font-size: 35px;
     font-size: 2.5em;
   }
-  .ad-box .ad-content .ad-lead.x2 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-lead.x2 {
     font-size: 40px;
     font-size: 2.85714em;
   }
-  .ad-box .ad-content .ad-desc {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-desc {
     font-size: 16px;
     font-size: 1.14286em;
   }
-  .ad-box .ad-content .ad-desc.x2 {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-desc.x2 {
     font-size: 24px;
     font-size: 1.71429em;
   }
-  .ad-box .ad-content .ad-action {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-action {
     padding: 0;
   }
-  .ad-box .ad-content .ad-action .bt-btn {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-action .bt-btn {
     padding: 4% 10%;
   }
-  .ad-box .ad-content .ad-action .bt-btn > i {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-action .bt-btn > i {
     margin-left: 10px;
     padding-left: 10px;
   }
-  .ad-box .ad-content .ad-action .bt-btn:after {
+  .lookdisplay-box .lookdisplay-content .lookdisplay-action .bt-btn:after {
     right: 45px;
   }
-  .ad-box.v2 .ad-content {
+  .lookdisplay-box.v2 .lookdisplay-content {
     padding-top: 25px;
     padding-bottom: 25px;
   }
