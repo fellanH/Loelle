@@ -5978,7 +5978,7 @@ table tbody + tbody {
 }
 
 .site-our-gallery .section-heading {
-  margin-top: 180px;
+  margin-top: 90px;
 }
 
 /*--------------------------------------------------------------
@@ -6035,6 +6035,7 @@ table tbody + tbody {
   line-height: 1.30435em;
   color: #CBA969;
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 .dark-gray {
