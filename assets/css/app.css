@@ -769,7 +769,7 @@ section {
   border: 0px solid #CBA969;
   max-width: 100%;
   height: auto;
-  margin-top: 35px;
+  margin-top: 0;
 }
 
 /*--------------------------------------------------------------
@@ -6001,8 +6001,8 @@ table tbody + tbody {
   --------------------------------------------------------------*/
 .site-special-area.alt {
   background-color: #f8f8f8;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .site-special-area .special-title-gray {
