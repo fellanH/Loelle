@@ -2,9 +2,9 @@
 /* ----------    RESPONSIVE   ---------- */
 /* ----------                 ---------- */
 @media (max-width: 1400px) {
-    #site-ads-section{
+    /* #site-ads-section{
         display: none;
-    }
+    } */
 }
 
 
@@ -193,13 +193,13 @@
       
   }
 
-  #ad-1 {
+  /* #ad-1 {
   display: none;
 }
 
 #ad-2 {
   display: none;
-}   
+}    */
 
 
 #site-products-masonry-v3 {
